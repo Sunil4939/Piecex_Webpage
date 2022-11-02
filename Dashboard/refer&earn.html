@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------css file------------------ -->
+    <link rel="stylesheet" href="header&footer.css">
+    <link rel="stylesheet" href="dashboard_common.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/0dff0a2527.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- -----------------JavaScript------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <title>Dashboard-Refer and Earn </title>
+</head>
+
+<body>
+    <!-- ---------------------header section-------------- -->
+    <header class="fixed-top ">
+        <!-- ----------------------------navigation bar-------------------- -->
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container-fluid d-flex ps-lg-3 ps-0  pe-lg-3" style="flex-wrap:nowrap;">
+                <!-- ksakd -->
+                <!-- ------------------menu toggler btn------------------ -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarone" aria-controls="offcanvasNavbarone" style="box-shadow:none;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- ------------------menu toggler container------------------ -->
+                <div class="offcanvas offcanvas-start  d-block d-lg-none" tabindex="-1" id="offcanvasNavbarone"
+                    aria-labelledby="offcanvasNavbarLabel"
+                    style="width:70%; margin-bottom: 80px; margin-top: 56px; overflow-y: scroll;">
+                    <div class="offcanvas-header ">
+                        <a class="offcanvas-title" id="offcanvasNavbarLabel"></a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body d-lg-none ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                            <div class="accordion " id="accordionExample">
+                                <div class="accordion-item   border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne"
+                                            style="background-color: #ffffff00; box-shadow: none !important;">
+                                            <h6> English
+                                                <img src="https://www.piecex.com/assets/img/common/home/uk.webp" alt="">
+                                            </h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0 ">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Spanish
+                                                        <img src="https://www.piecex.com/assets/img/common/home/spa.webp"
+                                                            alt="">
+                                                    </a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Japanese
+                                                        <img src="	https://www.piecex.com/assets/img/common/home/jpn.webp"
+                                                            alt="">
+                                                    </a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo"
+                                            style="background-color: #ffffff00; box-shadow: none !important;">
+                                            <h6> Buy</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0 ">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Source Codes</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">OSS Plans</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">loT Codes</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">loT Hardware</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed  " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree"
+                                            style="background-color: #ffffff00; box-shadow: none !important;">
+                                            <h6>Sell</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Sell Codes</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Sell OSS
+                                                        Plans</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Sell loT
+                                                        Codes</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Sell loT
+                                                        Hardware</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container pt-4 pb-4 me-3 p-1">
+                                    <h5 class="text-primary">Shop by code</h5>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed border-none " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour"
+                                            style="background-color: #ffffff00; box-shadow: none !important;">
+                                            <h6>Web source code</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Dot Net</a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">PHP</a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Templates</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">JavaScript</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Ecommerce</a>
+                                                </li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Management</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingfive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsefive"
+                                            aria-expanded="false" aria-controls="collapsefive"
+                                            style="background-color: #ffffff00; box-shadow: none !important; border-top: none !important;">
+                                            <h6> Mobile apps</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefive" class="accordion-collapse collapse"
+                                        aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Android</a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">IOS</a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Games</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 border-bottom border-2">
+                                    <h2 class="accordion-header" id="headingsix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                                            aria-expanded="false" aria-controls="collapsesix"
+                                            style="background-color: #ffffff00; box-shadow: none !important;">
+                                            <h6> Enterprise</h6>
+                                        </button>
+                                    </h2>
+                                    <div id="collapsesix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body p-0">
+                                            <ul class="p-0 ">
+                                                <li class="nav-link"><a class="dropdown-item text-wrap "
+                                                        href="#">Enterprise App and
+                                                        Websystem</a></li>
+                                                <li class="nav-link"><a class="dropdown-item" href="#">Enterprise
+                                                        Finance</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link ms-4 " href="" style="color:black !important ;">Featured</a>
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a class="nav-link ms-4" href="" style="color:black !important ;">Community
+                                        Codes</a>
+                                </li>
+                                <hr>
+                                <li class="nav-item">
+                                    <a class="nav-link  ms-4" href="">
+                                        <img class="oss-logo" alt="piecex for oss" height="15px"
+                                            src="	https://www.piecex.com/assets/img/common/piecex-oss-logo.png"></a>
+                                </li>
+                                <hr>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link ms-4" href="">
+                                        <img class="oss-logo" alt="piecex for oss" height="15px"
+                                            src="https://www.piecex.com/assets/img/common/piecex-iot-logo.png"></a>
+                                    </a>
+                                    <hr>
+                                <li>
+                                    <a class="dropdown-item ms-2" href="/iot">IoT Hardware</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ms-2" href="/buy-sell-source-code/IoT+%28Software%29">IoT
+                                        Code</a>
+                                </li>
+
+                                </li>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- ------------------end menu toggler container------------------ -->
+                <!-- bajsba -->
+                <span>
+                    <!-- -----------logo------------- -->
+                    <img class="img_logo" src="https://www.piecex.com/assets/img/common/home/Logo_Transparent.png"
+                        alt="">
+                </span>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <!-- -----------------buy dropdown--------------- -->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-muted" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Buy
+                            </a>
+                            <ul class="dropdown-menu  border-0">
+                                <li><a class="dropdown-item" href="#">Source Codes</a></li>
+                                <li><a class="dropdown-item" href="#">OSS Plans</a></li>
+                                <li><a class="dropdown-item" href="#">loT Codes</a></li>
+                                <li><a class="dropdown-item" href="#">loT Hardware</a></li>
+                            </ul>
+                        </li>
+                        <!-- -----------------end buy dropdown--------------- -->
+                        <!-- -----------------sell dropdown--------------- -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                sell
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="#">Sell Codes</a></li>
+                                <li><a class="dropdown-item" href="#">Sell OSS Plans</a></li>
+                                <li><a class="dropdown-item" href="#">Sell loT Codes</a></li>
+                                <li><a class="dropdown-item" href="#">Sell loT Hardware</a></li>
+
+                            </ul>
+                        </li>
+                        <!-- -----------------end sell dropdown--------------- -->
+                        <li class="nav-item ">
+                            <a class="nav-link text-muted" href="#">Post Requests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Enterprise Solutions</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <ul class="navbar-nav " style="flex-direction:row ;">
+                    <!-- ----------------search bar--------------- -->
+                    <li class="nav-item">
+                        <div class="search position-relative text-end" id="src">
+                            <input type="text" class="form-control " placeholder="Search....">
+                            <i class="fa-solid fa-magnifying-glass position-absolute "
+                                style="right:10px; top: 10px;"></i>
+                        </div>
+                    </li>
+                    <!-- ----------------notification bell------------- -->
+                    <li><a href="#" class=" d-none d-lg-block  text-decoration-none text-black position-relative fs-4 mx-3">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="position-absolute  start-100 translate-middle badge  bg-primary " style="font-size: 8px; top: 8px;">
+                          0
+                        </span>
+                    </a></li>
+                    <!-- ----------------end notification bell------------- -->
+                    <!-- -----------------like ---------------------- -->
+                    <li><a href="#" class=" d-none d-lg-block text-decoration-none text-black position-relative fs-4 mx-1">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="position-absolute  start-100 translate-middle badge  bg-primary " style="font-size: 8px; top: 8px;">
+                          0
+                        </span>
+                    </a></li>
+                    <!-- -----------------end like ---------------------- -->
+                    <!-- ----------------add cart------------------- -->
+                    <li><a href="#" class=" d-none d-lg-block text-decoration-none text-black position-relative fs-4 mx-3">
+                        <img src="./image/cart.svg" alt="">
+                        <span class="position-absolute  start-100 translate-middle badge  bg-primary " style="font-size: 8px; top: 12px;">
+                          0
+                        </span>
+                    </a></li>
+                    <!-- ----------------end add cart------------------- -->
+                    <!-- -----------------user icon ---------------------- -->
+                   
+                     <li><a href="#" class=" d-none d-lg-block  text-decoration-none text-black "  data-bs-toggle="dropdown">
+                        <div class="dropdown ">
+                        <img src="./image/user.webp" alt="" width="40px">
+                         <ul class="dropdown-menu mt-2 border-0">
+                            <li><a href="account.html" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/accuser.webp" alt=""></span>
+                                <span class="ms-2">Account</span>
+                            </a></li>
+                            <li><a href="Dashboard.html" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/dashboard.webp" alt=""></span>
+                                <span class="ms-2">Dashboard</span>
+                            </a></li>
+                            <li><a href="Purchase.html" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/history.webp" alt=""></span>
+                                <span class="ms-2">Purchase History</span>
+                            </a></li>
+                            <li><a href="account.html" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/money.webp" alt=""></span>
+                                <span class="ms-2">Sales History</span>
+                            </a></li>
+                            <li><a href="wallet.html" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/wallet.webp" alt=""></span>
+                                <span class="ms-2">Wallet</span>
+                            </a></li>
+                            <li><a href="" class="dropdown-item" aria-current="true">
+                                <span><img src="./image/logout.webp" alt=""></span>
+                                <span class="ms-2">Logout </span>
+                            </a></li>
+                            </ul>
+                        </div>
+                       </a></li>
+                    <!-- -----------------end user icon ---------------------- -->
+                    <!-- --------------sign in button--------------- -->
+                    <a href="sign.html" class="btn btn-primary d-none d-lg-block visually-hidden" id="sign_btn">Sign In</a>
+                    <!-- --------------------------language dropdown----------------- -->
+                    <li class="nav-item dropdown ms-md-3  d-none d-lg-block ">
+                        <a class="nav-link dropdown-toggle text-muted" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>
+                                English
+                                <picture>
+                                    <img src="https://www.piecex.com/assets/img/common/home/uk.webp" alt="">
+                                </picture>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu border-0 position-absolute ">
+                            <li><a class="dropdown-item " href="#"><span>
+                                        Spanish
+                                        <picture>
+                                            <img src="https://www.piecex.com/assets/img/common/home/spa.webp" alt="">
+                                        </picture>
+                                    </span></a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><span>
+                                        Japanese
+                                        <picture>
+                                            <img src="	https://www.piecex.com/assets/img/common/home/jpn.webp" alt="">
+                                        </picture>
+                                    </span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- --------------------------end language dropdown----------------- -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ---------------------------------end navigation bar-------------------------- -->
+    </header>
+    <!-- ---------------------end header section-------------- -->
+    <!-- ---------------------Refer and Earn body container---------------------- -->
+    <div class=" container-fluid px-0 bg-light dashboard_container" id="dashboard_container" style="margin-top:4rem;">
+        <!-- --------------------dropdown header container------------------- -->
+        <div class="container-fluid pb-2 bg-light pt-2" style="background-color: white !important;">
+            <div class="container-fluid d-none py-2 px-0 d-lg-block ">
+                <div class="row ">
+                    <!-- ----------------------Web source code---------------- -->
+                    <div class="col-2 dropdown">
+                        <button class="btn   dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="border-width: 0;">
+                            Web source code
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Dot Net </a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Templates</a></li>
+                            <li><a class="dropdown-item" href="#">Javascript</a></li>
+                            <li><a class="dropdown-item" href="#">Ecommerce</a></li>
+                            <li><a class="dropdown-item" href="#">Management</a></li>
+                        </ul>
+                    </div>
+                    <!-- -- ----------------------mobbile Apps---------------- -- -->
+                    <div class="col-2 dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="border-width: 0;">
+                            Mobbile Apps
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Android</a></li>
+                            <li><a class="dropdown-item" href="#">IOS</a></li>
+                            <li><a class="dropdown-item" href="#">Games</a></li>
+                        </ul>
+                    </div>
+                    <!-- ------------------enterprice----------------- -->
+                    <div class="col-1 dropdown me-3">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="border-width: 0;">
+                            Enterprise
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Enterprise App and Websystem </a></li>
+                            <li><a class="dropdown-item" href="#"> Enterprise Finance </a></li>
+                        </ul>
+                    </div>
+                    <!-- -----------------image link-------------- -->
+                    <div class="col-1 mt-1 ms-2 me-3">
+                        <a href="#">
+                            <img src="./image/piecex-oss-logo.png" alt="" width="100px">
+                        </a>
+                    </div>
+                    <!-- ----------------------image dropdown------------- -->
+                    <div class="col-2 dropdown">
+                        <button class="btn   dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="border-width: 0;">
+                            <img src="./image/piecex-iot-logo.png" alt="" width="100px">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">IOT Hardware</a></li>
+                            <li><a class="dropdown-item" href="#">IOT Code</a></li>
+                        </ul>
+                    </div>
+                    <!-- ---------------Featured links----------- -->
+                    <div class=" col-1 mt-1 ms-2 me-3">
+                        <a href="#" class="text-decoration-none text-dark fs-5 fw-bold">Featured</a>
+                    </div>
+                    <!-- ---------------Community Codes links----------- -->
+                    <div class=" col-2 mt-1">
+                        <a href="#" class="text-decoration-none fs-5 fw-bold" style="color: #48D564;">Community
+                            Codes</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------------------links container------------------------ -->
+            <div class="links  ps-sm-2 pe-sm-2 pt-1 pb-1 ">
+                <div class="page_location ps-2 pe-2" style="background-color: #EDEDED; width:fit-content;">
+                    <a href="#" class="text-decoration-none text-black">Top</a>
+                    <img src="./image/right_arr.svg" class="ms-1 me-1" alt="">
+                    <a href="#" class="text-decoration-none text-black">Dashboard</a>
+                    <img src="./image/right_arr.svg" class="ms-1 me-1" alt="">
+                    <a href="#" class="text-decoration-none "> Referral program</a>
+                </div>
+            </div>
+            <!-- --------------------end links container------------------------ -->
+        </div>
+        <!-- --------------------end dropdown header container------------------- -->
+        <div class="row mx-0">
+            <!-- -----------------side bar----------------- -->
+            <div class="col-2 d-none d-lg-block bg-white pt-2 pb-2 " style="width: 20%;">
+                <!-- ---------------side bar list---------------------- -->
+                <div class="list-group ">
+                    <!-- ---------------dashboard button------------- -->
+                    <a href="Dashboard.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span class="ms-2">Dashboard</span>
+                    </a>
+                    <!-- ---------------account button------------- -->
+                    <a href="account.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <span class="ms-2">Account</span>
+                    </a>
+                    <!-- ---------------sales button------------- -->
+                    <a href="Sales.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-regular fa-credit-card"></i></span>
+                        <span class="ms-2">Sales</span>
+                    </a>
+                    <!-- ---------------purchase button------------- -->
+                    <a href="Purchase.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="ms-2">Purchases</span>
+                    </a>
+                    <!-- ---------------affiliate  button------------- -->
+                    <a href="Affiliate.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-solid fa-briefcase"></i></span>
+                        <span class="ms-2">Affiliate Program</span>
+                    </a>
+                    <!-- ---------------my product button------------- -->
+                    <a href="Product.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-code"></i></span>
+                        <span class="ms-2">My Products</span>
+                    </a>
+                    <!-- ---------------my oss plan button------------- -->
+                    <a href="OSSplan.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-brands fa-osi"></i></span>
+                        <span class="ms-2">My OSS Plan</span>
+                    </a>
+                    <!-- ---------------my wallet button------------- -->
+                    <a href="wallet.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-wallet"></i></span>
+                        <span class="ms-2">My Wallet</span>
+                    </a>
+                    <!-- ---------------customization button------------- -->
+                    <a href="customization.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-solid fa-file-invoice"></i></span>
+                        <span class="ms-2">Customizations</span>
+                    </a>
+                    <!-- ---------------My support plan button------------- -->
+                    <a href="support.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-headset"></i></span>
+                        <span class="ms-2">My Support Plans</span>
+                    </a>
+                    <!-- ---------------my message button------------- -->
+                    <a href="message.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <span class="ms-2">My Messages</span>
+                    </a>
+                    <!-- ---------------my point button------------- -->
+                    <a href="mypoint.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-coins"></i></span>
+                        <span class="ms-2">My Points</span>
+                    </a>
+                    <!-- ---------------referral program button------------- -->
+                    <a href="refer&earn.html" class="list-group-item list-group-item-action text-primary" aria-current="true">
+                        <span><i class="fa-solid fa-users"></i></span>
+                        <span class="ms-2">Referral Program</span>
+                    </a>
+                    <!-- ---------------my request button------------- -->
+                    <a href="request.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-hand-holding-heart"></i></span>
+                        <span class="ms-2">My Requests</span>
+                    </a>
+                    <!-- ---------------my article button------------- -->
+                    <a href="article.html" class="list-group-item list-group-item-action " aria-current="true">
+                        <span><i class="fa-brands fa-readme"></i></span>
+                        <span class="ms-2">My Articles</span>
+                    </a>
+                    <!-- ---------------my comments button------------- -->
+                    <a href="comment.html" class="list-group-item list-group-item-action">
+                        <span><i class="fa-solid fa-comment"></i></span>
+                        <span class="ms-2">My Comments</span>
+                    </a>
+                </div>
+                <!-- ---------------end side bar list---------------------- -->
+            </div>
+            <!-- -----------------end side bar----------------- -->
+            <!-- ---------------------Refer and Earn content container------------- -->
+            <div class="col-lg-9 pt-3">
+                <!-- ------------Refer and Earn history container-------------- -->
+                <div class="container-fluid  py-4 bg-white border border-2 rounded-3">
+                    <h2>Refer <span class="text-primary">and Earn
+                        </span></h2>
+                    <!-- -------------------refer and earn content box--------------- -->
+                    <div class="container d-flex justify-content-center ">
+                        <div class="col-lg-9 text-center px-lg-5 px-2">
+                            <h4>Refer and Earn</h4>
+                            <h6 class="fs-5">Using PieceX is more fun with friends.</h6>
+                            <p>Invite your friends and colleagues to join PieceX and earn free PieceX points! When your
+                                friend registers you’ll both get 100 PieceX points. There are no limits on how many
+                                friends you can invite! The more friends you invite the more points you’ll be able to
+                                use in your next purchases with us.
+                                <a href="#" class="text-decoration-none text-success"> Terms apply.</a>
+                            </p>
+                            <!-- -----------process icons------------------- -->
+                            <div class=" row align-items-baseline justify-content-center">
+                                <!-- ---------------progress step 1------------------- -->
+                                <div class="col-4">
+                                    <div class=" d-flex align-items-center justify-content-center">
+                                        <div class="rounded-circle bg-success p-2 px-3 mx-2 text-white">1</div>
+                                        <div class="progress" style="width: 100%; height:5px;">
+                                            <div class="progress-bar bg-success" role="progressbar"
+                                                aria-label="Basic example" style="width: 100%;" aria-valuenow="100"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="w-50">Send your invite</div>
+                                </div>
+                                <!-- ---------------progress step 2------------------- -->
+                                <div class=" col-4 ">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div class="rounded-circle bg-success p-2 px-3 mx-2  text-white">2</div>
+                                        <div class="progress " style="width: 100%; height:5px;">
+                                            <div class="progress-bar bg-success" role="progressbar"
+                                                aria-label="Basic example" style="width: 100%;" aria-valuenow="100"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="w-50">Your friend joins PieceX</div>
+                                </div>
+                                <!-- ---------------progress step 3------------------- -->
+                                <div class="col-3 ">
+                                    <div class="d-flex align-items-center ">
+                                        <div class="rounded-circle bg-success p-2 px-3 text-white">3</div>
+                                    </div>
+                                    <div class="">Both earn 100 Points</div>
+                                </div>
+                            </div>
+                            <!-- -----------end process icons------------------- -->
+
+
+                        </div>
+                    </div>
+                    <!-- -----------------invitation container------------- -->
+                    <div class="container ">
+                        <div class="col-lg-10 mx-lg-5 py-2">
+                            <div class="row">
+
+                                <h5>Invite Friend</h5>
+                            </div>
+                            <label for="" class="ps-4 d-flex justify-content-between border-bottom pb-2">
+                                <p> Friends Email: <span class="text-danger">*</span></p>
+                                <input type="email" class="btn btn-sm border text-start w-50" name="" id=""
+                                    placeholder="Your Friends Email" required>
+                                <a href="#" class="btn btn-primary" id="sign_btn">Invite Friend</a>
+                            </label>
+                        </div>
+                        <div class="text-center fs-5">OR</div>
+                        <div class="text-center fs-3">More ways to invite your friends</div>
+                        <!-- ----------------share -------------------- -->
+                        <div class="share">
+                            <div class="row mx-lg-5 py-2 fs-5">Share your invite link:</div>
+                            <div class=" mx-lg-5 py-2 px-4"><span class="text-secondary"> https://piecex.page.link/VGvFAKBMmAZRDDHaA </span>
+                                <a href="#" class="btn btn-primary mx-2" id="sign_btn">
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- --------------------social icons----------------- -->
+                        <div class="social my-4 ">
+                            <div class="d-flex  justify-content-center border-bottom border-2 pb-4">
+                                <div class="facebook mx-1">
+                                    <a href="#" class="rounded-circle text-white bg-primary fs-4" style="padding:10px 18px;"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="facebook mx-1">
+                                    <a href="#" class="rounded-circle text-white bg-primary fs-4" style="padding:10px 15px;"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="facebook mx-1">
+                                    <a href="#" class="rounded-circle text-white bg-secondary fs-4" style="padding:10px 15px;"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="facebook mx-1">
+                                    <a href="#" class="rounded-circle text-white bg-success  fs-4" style="padding:10px 15px;"><i class="fa-brands fa-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center my-3">
+                            <a href="#" class=" btn btn-primary btn-lg" id="sign_btn"><i class="fa-solid fa-clock-rotate-left"></i> <span class="pt-2"> Invite History</span>
+                            <small class="d-block pb-2">
+                                View your invites and status
+                            </small></a>
+                            </div>
+                        </div>
+                        <!-- --------------------end social icons----------------- -->
+                    </div>
+                    <!-- ----------------- end invitation container------------- -->
+                </div>
+                <!-- -------------------end refer and earn content box--------------- -->
+            </div>
+            <!-- ------------end Refer and Earn history container-------------- -->
+        </div>
+        <!-- ---------------------end Refer and Earn content container------------- -->
+    </div>
+    </div>
+    <!-- ---------------------end Refer and Earn body container---------------------- -->
+    <!-- --------------------footer section-------------------------- -->
+    <footer>
+        <!-- ----------------------stay section------------------ -->
+        <!-- stay banner -->
+        <section class="stay">
+            <img src="https://www.piecex.com/assets/img/common/user-icon.png" class="mobile-symbol" alt="user-symbol">
+            <div class="inner-stay-updated">
+                <div class="row p-4 inner-seller">
+                    <div class="col-md-6">
+                        <div class="mt-2 pt-4 text-light ">
+                            <h2 class="fw-bold">Stay in touch</h2>
+                            <div class="mt-2 pt-4">
+                                <form action="/Pages/subscribe" class="m-0" id="PagesSubscribeForm" method="post"
+                                    accept-charset="utf-8">
+                                    <div style="display:none; "><input type="hidden" name="_method" value="POST"></div>
+                                    <div style="display:none;"><input type="hidden" name="_method" value="POST">
+                                    </div>
+                                    <input placeholder="Please enter your email" required="required"
+                                        class="email-input form-control" type="email" id="PagesEmail"
+                                        style="border-radius:30px ;">
+                                    <button class="btn btn-default bg-light mt-4" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-4 pt-4 container">
+                        <p class="mt-2 pt-4 fs-5 p-md-4 subInnerText"><span class="d-none d-lg-block text-light">Get
+                                Practical Tips For Business and Developers. <br>
+                                Learn about PieceX Community Needs for Source Code Projects. <br>
+                            </span>
+                            <span class="text-light"> Be the First to Know PieceX Newest Free Community Code
+                                Projects.</span>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- ------------------------------end stay section----------------------- -->
+        <!-- footer -->
+        <div class="container-fluid ps-5 pe-5 footer">
+            <footer class="row row-cols-8 py-5 justify-content-between">
+                <!-- ------------------By category column----------------- -->
+                <div class="col-sm-2 mb-4">
+                    <h5>By Category</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Web Source</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">IOS</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Android Apps</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> PHP Scripts and Website
+                                Source Codes</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> FinTech</a></li>
+                    </ul>
+                </div>
+                <!-- ------------------end By category column----------------- -->
+                <!-- ------------------more about piecex column----------------- -->
+                <div class="col-sm-2 mb-4">
+                    <h5>More About PieceX</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Become an Affiliate</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Become a Sales Agency</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Rankings</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">How it Works</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                    </ul>
+                </div>
+                <!-- ------------------end more about piecex column----------------- -->
+                <!-- -------------------media column--------------------- -->
+                <div class="col-sm-2 mb-4">
+                    <h5>Media</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Articles</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Blog</a></li>
+
+                    </ul>
+                </div>
+                <!-- -------------------end media column--------------------- -->
+                <!-- -------------------License column--------------------- -->
+                <div class="col-sm-2 mb-4">
+                    <h5> License</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> License</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Refund Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Management Company</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Support</a></li>
+                    </ul>
+                </div>
+                <!-- -------------------end License column--------------------- -->
+                <!-- ------------------- Terms of Service column--------------------- -->
+                <div class="col-sm-2 mb-4">
+                    <h5> Terms of Service</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> Terms of Service</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Wallet Terms of
+                                Service</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Points Terms of
+                                Service</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> PieceX for OSS Terms of
+                                Service</a></li>
+
+                    </ul>
+                </div>
+                <!-- -------------------end Terms of Service column--------------------- -->
+                <div class=" col-sm-3" id="contacts">
+
+                    <div class="col">
+                        <div>
+                            <a href="/" class="d-flex align-items-center mb- link-dark text-decoration-none">
+                                <p class="text-light">Contact us</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/" class="d-flex align-items-center mb- link-dark text-decoration-none">
+                                <p class="text-light">supportcenter@piecex.com</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a id="icon" href="">
+                                <img src="https://www.piecex.com/assets/img/common/home/fb.svg" alt="">
+                            </a>
+                            <a id="icon" href="">
+                                <img src="	https://www.piecex.com/assets/img/common/home/twitter.svg" alt="">
+                            </a>
+                            <a id="icon" href="">
+                                <img src="https://www.piecex.com/assets/img/common/home/insta.svg" alt="">
+                            </a>
+                            <a id="icon" href="">
+                                <img src="	https://www.piecex.com/assets/img/common/home/linkedin.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+        <!-- footer on desktop  -->
+        <!-- -------------contact us conatiner-------------------- -->
+        <div class="container-fluid mt-4 ps-5 pe-5" id="foot">
+            <div class="row">
+                <div class=" col-6">
+                    <a href="/" class="  link-dark text-decoration-none">
+                        <img class="navbar-brand mb-3"
+                            src="https://www.piecex.com/assets/img/common/home/Logo_Transparent.png"
+                            style="width:10rem;" alt="">
+                    </a>
+                    <a href="/" class=" link-dark text-decoration-none">
+                        <div class="text-primary">Contact us</div>
+                    </a>
+                    <a href="/" class=" link-dark text-decoration-none">
+                        <p class="text-secondary">supportcenter@piecex.com</p>
+                    </a>
+                </div>
+                <div class="col-6 d-flex justify-content-end link-dark text-decoration-none">
+                    <div>
+
+                        <a class="ms-4" id="icon" href="">
+                            <img src="https://www.piecex.com/assets/img/common/home/fb.svg" alt="" width="40px">
+                        </a>
+                        <a class="ms-4" id="icon" href="">
+                            <img src="	https://www.piecex.com/assets/img/common/home/twitter.svg" alt="" width="40px">
+                        </a>
+                        <a class="ms-4" id="icon" href="">
+                            <img src="https://www.piecex.com/assets/img/common/home/insta.svg" alt="" width="40px">
+                        </a>
+                        <a class="ms-4" id="icon" href="">
+                            <img src="	https://www.piecex.com/assets/img/common/home/linkedin.svg" alt="" width="40px">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ------------- end contact us conatiner-------------------- -->
+        <!-- -----------mobile view nav bar --------------->
+        <div class="container-fluid d-flex justify-content-around fixed-bottom bg-light shadow-lg p-2  d-lg-none"
+            style="height:10%" id="navar">
+            <div>
+                <i><span class="material-symbols-outlined ms-4 fs-1 ">favorite</span></i>
+                <span>Favorites</span>
+            </div>
+            <div>
+                <i><span class="material-symbols-outlined ms-4 fs-1"> notifications</span></i>
+                <span>Notification</span>
+            </div>
+            <div>
+                <i><span class="material-symbols-outlined ms-4 fs-1">desktop_windows</span></i>
+                <span>Enterprise</span>
+            </div>
+            <div>
+                <span class="badge bg-primary position-absolute" style="font-size:8px; margin-left: 16px;">0</span>
+                <i><span class="material-symbols-outlined ms- fs-1">shopping_cart</span></i>
+                <span>Cart</span>
+
+            </div>
+            <div>
+                <i><span class="material-symbols-outlined ms-3 fs-1">person</span></i>
+                <span>Account</span>
+            </div>
+        </div>
+        <!-- -----------end mobile view nav bar --------------->
+    </footer>
+    <!-- --------------------------end footer section------------------------ -->
+</body>
+
+</html>

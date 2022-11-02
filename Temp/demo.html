@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------------------bootstrap files--------------------------- -->
+    <!-- <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+    <script src="./Bootstrap/bootstrap.js"></script> -->
+    <!-- ------------------------------owl-carousel files-------------------------------- -->
+    <link rel="stylesheet" href="./Bootstrap/owl.carousel.css">
+    <link rel="stylesheet" href="./Bootstrap/owl.theme.green.css">
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/owl.carousel.min.js"></script>
+    <!-- --------------------OWL carousel------------------------------ -->
+    <script src="./Bootstrap/OWL.js"></script>
+
+    <!-- -------------------css file------------------ -->
+    <link rel="stylesheet" href="Piecex.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/0dff0a2527.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--  -->
+    <!-- -----------------JavaScript------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- js cdn -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <title>Demo</title>
+
+</head>
+
+<body>
+    <!-- ----------------------------navigation bar-------------------- -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+        <div class="container-fluid d-flex justify-item-center " style="flex-wrap:nowrap; margin-left:-33px;">
+            <!-- ksakd -->
+            <!-- <a class="navbar-brand" href="#"></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="width:70%; margin-bottom: 80px;">
+                <div class="offcanvas-header ">
+                    <a class="offcanvas-title" id="offcanvasNavbarLabel"></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-lg-none ">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: #ffffff00; box-shadow: none !important;">
+                                    <h6> Buy</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0 ">
+                                        <ul class="p-0 ">
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Source Codes</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">OSS Plans</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">loT Codes</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">loT Hardware</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #ffffff00; box-shadow: none !important;">
+                                        <h6>Sell</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <ul class="p-0 ">
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Sell Codes</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Sell OSS Plans</a>
+                                            </li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Sell loT Codes</a>
+                                            </li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Sell loT Hardware</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container pt-4 pb-4 border-bottom me-3 p-1">
+                                <h5 class="text-primary">Shop by code</h5>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed border-none " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree" style="background-color: #ffffff00; box-shadow: none !important;">
+                                        <h6>Web source code</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <ul class="p-0 ">
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Dot Net</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">PHP</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Templates</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">JavaScript</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Ecommerce</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Management</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefour" aria-expanded="false"
+                                        aria-controls="collapsefour" style="background-color: #ffffff00; box-shadow: none !important; border-top: none !important;">
+                                       <h6> Mobile apps</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <ul class="p-0 ">
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Android</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">IOS</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Games</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsefive" aria-expanded="false"
+                                        aria-controls="collapsefive" style="background-color: #ffffff00; box-shadow: none !important;">
+                                       <h6> Enterprise</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapsefive" class="accordion-collapse collapse"
+                                    aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <ul class="p-0 ">
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Enterprise App and Websystem</a></li>
+                                            <li class="nav-link"><a class="dropdown-item" href="#">Enterprise Finance</a></li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="nav-item mt-3">
+                                <a class="nav-link ms-4 " href="" style="color:black !important ;">Featured</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link ms-4" href="" style="color:black !important ;">Community Codes</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link  ms-4" href="">
+                                <img class="oss-logo" alt="piecex for oss" height="15px" src="	https://www.piecex.com/assets/img/common/piecex-oss-logo.png"></a>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link ms-4" href="">
+                                    <img class="oss-logo" alt="piecex for oss" height="15px" src="https://www.piecex.com/assets/img/common/piecex-iot-logo.png"></a>
+                                </a>
+                                 <hr>
+                                    <li>
+                                        <a class="dropdown-item ms-2" href="/iot">IoT Hardware</a>
+                                    </li>
+                                     <li>
+                                        <a class="dropdown-item ms-2" href="/buy-sell-source-code/IoT+%28Software%29">IoT Code</a>
+                                    </li>
+                              
+                            </li>
+                        </div>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- bajsba -->
+            <span>
+                <img class="img_logo" src="https://www.piecex.com/assets/img/common/home/Logo_Transparent.png" alt="">
+            </span>
+            <!-- <a class="navbar-brand" href="">pieceX</a> -->
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-muted" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Buy
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Source Codes</a></li>
+                            <li><a class="dropdown-item" href="#">OSS Plans</a></li>
+                            <li><a class="dropdown-item" href="#">loT Codes</a></li>
+                            <li><a class="dropdown-item" href="#">loT Hardware</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-muted" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            sell
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sell Codes</a></li>
+                            <li><a class="dropdown-item" href="#">Sell OSS Plans</a></li>
+                            <li><a class="dropdown-item" href="#">Sell loT Codes</a></li>
+                            <li><a class="dropdown-item" href="#">Sell loT Hardware</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-muted" href="#">Post Requests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Enterprise Solutions</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <!-- <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown" style=" ;"> -->
+
+            <ul class="navbar-nav   " style="flex-direction:row ;">
+                <li class="nav-item">
+                    <div class="search " id="src">
+                        <!-- <i class="fa fa-search" style="width:50px; font-size:25px" ></i> -->
+                        <input type="text" class="form-control " placeholder="Search....">
+                    </div>
+                </li>
+                <li class="nav-item ms-md-2" id="add">
+                    <a class="nav-link" href="/carts/"><img
+                            src="https://www.piecex.com/assets/img/common/home/cart.svg"><sup
+                            class="badge badge-primary bg-primary">0</sup></a>
+                </li>
+                <!-- --------------sign in button--------------- -->
+                <a href="sign.html" id="btn" class="btn bluediv text-light">Sign In</a>
+                <li class="nav-item dropdown ms-md-3 ">
+                    <a class="nav-link dropdown-toggle text-muted" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>
+                            English
+                            <picture>
+                                <img src="https://www.piecex.com/assets/img/common/home/uk.webp" alt="">
+                            </picture>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu position-absolute ">
+                        <li><a class="dropdown-item " href="#"><span>
+                                    Spanish
+                                    <picture>
+                                        <img src="https://www.piecex.com/assets/img/common/home/spa.webp" alt="">
+                                    </picture>
+                                </span></a>
+                        </li>
+                        <li><a class="dropdown-item" href="#"><span>
+                                    Japanese
+                                    <picture>
+                                        <img src="	https://www.piecex.com/assets/img/common/home/jpn.webp" alt="">
+                                    </picture>
+                                </span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- </div> -->
+    </nav>
+    <!-- ---------------------------------end navigation bar-------------------------- -->
+    <!-- -------------------------banner section--------------------------------- -->
+    <section class="banner-section d-lg-block">
+        <div class="container-fluid banner_container">
+            <div class="row row-cols-3">
+                <!-- -----------column 1-------------- -->
+                <div class="col-lg-3">
+                    <!-- column_content -->
+                    <a href="#">
+                        <div class="iot_content column_content ">
+                            <!-- ----------iot logo-------------- -->
+                            <div class="iot_logo">
+                                <img class="iot_logo_white col_logo_icon" src="./image/IoT-X-moving.gif" alt="">
+                            </div>
+                            <!--------- iot description ---------->
+                            <div class="iot_description pt_5">
+                                <h3 class="iot_title">
+                                    Buy and Sell
+                                    <br>IoT source code
+                                </h3>
+                                <p class="iot_sub_title pt_4">
+                                    Embedded software and source code
+                                    <br> related to IoT hardware.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!----------- End column 1 ---------->
+                <!-- -----------column 2-------------- -->
+                <div class="col-lg-6">
+                    <!-- column_content -->
+                    <a href="#">
+                        <div class="piecex_content column_content">
+                            <!-- piecex logo -->
+                            <div class="piecex_logo">
+                                <img class="piecex_logo_white col_logo_icon" src="./image/PieceX-X-moving.gif" alt="">
+                            </div>
+                            <!-- piecex description -->
+                            <div class="piecex_description pt_5">
+                                <h3 class="piecex_title">
+                                    Buy and Sell
+                                    <br>Source code
+                                </h3>
+                                <p class="piecex_sub_title pt_4">
+                                    Source code for mobile, websites,
+                                    <br>applications, plugins, templates and more.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- search bar -->
+                    <div class="search_bar">
+                        <form class="d-flex">
+                            <input class="form-control me-2 " id="product_search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn " type="submit">
+                                <img src="./image/search.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!----------- End column 2 ---------->
+                <!-- -----------column 3-------------- -->
+                <div class="col-lg-3">
+                    <!-- column_content -->
+                    <a href="#">
+                        <div class="oss_content column_content">
+                            <!-- oss logo -->
+                            <div class="oss_logo">
+                                <img class="oss_logo_white col_logo_icon" src="./image/OSS-X-moving.gif" alt="">
+                            </div>
+                            <!-- oss description -->
+                            <div class="oss_description pt_5">
+                                <h3 class="oss_title">
+                                    Buy and Sell
+                                    <br> OSS plan
+                                </h3>
+                                <p class="oss_sub_title pt_4">
+                                    Plan for advance support, customizations,
+                                    cloud access, etc for Github repositories open
+                                    source solutions
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!----------- End column 3 ---------->
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------End banner section--------------------------------- -->
+    <!-- ----------------------carousel------------------------------------- -->
+    <div id="carouselExampleCaptions" class="carousel slide d-lg-none carousel_container" data-bs-ride="carousel">
+        <!-- ----------------------carousel indicators------------------------------------- -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <!-- ----------------------carousel inner container----------------------------- -->
+        <div class="carousel-inner">
+            <!-- -----------column 1-------------- -->
+            <div class="carousel-item active carousel_item_1 carousel_items">
+                <div class="piecex_container">
+                    <!-- column content -->
+                    <a href="#">
+                        <div class="iot_content column_content">
+                            <!-- iot logo -->
+                            <div class="iot_logo">
+                                <img class="iot_logo_white col_logo_icon" src="./image/IoT-X-moving.gif" alt="">
+                            </div>
+                            <!-- iot description -->
+                            <div class="iot_description pt_5">
+                                <h3 class="iot_title">
+                                    Buy and Sell
+                                    <br>IoT source code
+                                </h3>
+                                <p class="iot_sub_title pt_4">
+                                    Embedded software and source code
+                                    <br> related to IoT hardware.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- -------------search bar------------- -->
+                    <div class="search_bar">
+                        <form class="d-flex">
+                            <input class="form-control me-2 " id="product_search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn " type="submit">
+                                <img src="./image/search.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!----------- End column 1 ---------->
+            <!-- -----------column 2-------------- -->
+            <div class="carousel-item carousel_item_2 carousel_items">
+                <div class="piecex_container">
+                    <!-- column content -->
+                    <a href="#">
+                        <div class="piecex_content column_content">
+                            <!-- piecex logo -->
+                            <div class="piecex_logo">
+                                <img class="piecex_logo_white col_logo_icon" src="./image/PieceX-X-moving.gif" alt="">
+                            </div>
+                            <!-- piecex description -->
+                            <div class="piecex_description pt_5">
+                                <h3 class="piecex_title">
+                                    Buy and Sell
+                                    <br>Source code
+                                </h3>
+                                <p class="piecex_sub_title pt_4">
+                                    Source code for mobile, websites,
+                                    <br>applications, plugins, templates and more.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- -------------search bar------------- -->
+                    <div class="search_bar">
+                        <form class="d-flex">
+                            <input class="form-control me-2 " id="product_search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn " type="submit">
+                                <img src="./image/search.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!----------- End column 2 ---------->
+            <!-- -----------column 3-------------- -->
+            <div class="carousel-item carousel_item_3 carousel_items">
+                <div class="piecex_container">
+                    <!-- column content -->
+                    <a href="#">
+                        <div class="oss_content column_content">
+                            <!-- ----------- oss logo---------- -->
+                            <div class="oss_logo">
+                                <img class="oss_logo_white col_logo_icon" src="./image/OSS-X-moving.gif" alt="">
+                            </div>
+                            <!-- oss description -->
+                            <div class="oss_description pt_5">
+                                <h3 class="oss_title">
+                                    Buy and Sell
+                                    <br> OSS plan
+                                </h3>
+                                <p class="oss_sub_title pt_4">
+                                    Plan for advance support, customizations,
+                                    cloud access, etc for Github repositories open
+                                    source solutions
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- -------------search bar------------- -->
+                    <div class="search_bar">
+                        <form class="d-flex">
+                            <input class="form-control me-2 " id="product_search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn " type="submit">
+                                <img src="./image/search.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!----------- End column 3 ---------->
+        </div>
+        <!-- -------------previous button----------------- -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <!-- ----------------next button-------------- -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ----------------------End carousel------------------------------------- -->
+    <!-- -----------------------------language container----------------------------- -->
+    <div class="container-fluid language_container">
+        <p>Find the source code your app needs, 10+ programming languages supported.</p>
+        <div class="row ">
+            <a href="#">
+                <img src="./image/php.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/python.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/swift_1.webp" alt="" width="138px" height="40px">
+            </a>
+            <a href="#">
+                <img src="./image/java.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/node.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/c.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/html1.webp" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/html3.webp" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- -----------------------------end language container----------------------------- -->
+    <!-- ------------------------featured items------------------------- -->
+    <div class="featured_items">
+        <div class="container-fluid common_padding ">
+            <h2>Featured<span class="color_blue"> Items</span> </h2>
+            <div class="latest-code-para row">
+                <p class="col">Weekly top-performing source codes from the community.</p>
+                <a href="#" class="viewprod col-2 text-end">View Featured</a>
+            </div>
+            <!-- -------------------featured items owl carousel-------------------------- -->
+            <div class="featured_carousel owl-carousel owl-theme">
+                <!-- -------------------------card 1--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-4390.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">JavaScript</a>
+                                </div>
+                                <div>
+                                    <a href="#">PHP</a>
+                                </div>
+                                <div>
+                                    <a href="#">Content</a>
+                                </div>
+                                <div>
+                                    <a href="#">Data</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                Tooday A Social community app
+                            </a></h6>
+                        <p class="card-text">- Watch all the latest updates of your city through short videos -Get
+                            instant...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    codervikas
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$956.89</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 1 end---------------- -->
+                <!-- -------------------------card 2--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-4351.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">JavaScript</a>
+                                </div>
+                                <div>
+                                    <a href="#">PHP</a>
+                                </div>
+                                <div>
+                                    <a href="#">Accounting</a>
+                                </div>
+                                <div>
+                                    <a href="#">Cryptocurrency</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                Febit Digital Currency Exchange Platform
+                            </a></h6>
+                        <p class="card-text">Features:
+                            Whitelabel, a few clicks to change the site to your brand
+                            Live...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    hitrivlh065856
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$2,100.13</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 2 end---------------- -->
+                <!-- -------------------------card 3--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-4465.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">JavaScript</a>
+                                </div>
+                                <div>
+                                    <a href="#">PHP</a>
+                                </div>
+                                <div>
+                                    <a href="#">Content</a>
+                                </div>
+                                <div>
+                                    <a href="#">Data</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                YOFLIX ALL IN ONE AROUND THE WORLD
+                            </a></h6>
+                        <p class="card-text">CORE FEATURES
+
+                            HIGHLIGHTED FEATURES
+
+                            WE CAN USE IT FOR WEB...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    alamgir5664
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$264.90 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 3 end---------------- -->
+                <!-- -------------------------card 4--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-3064.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">PHP</a>
+                                </div>
+                                <div>
+                                    <a href="#">HTML</a>
+                                </div>
+                                <div>
+                                    <a href="#">Retail</a>
+                                </div>
+                                <div>
+                                    <a href="#">Ecommerce</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                MShopping Mall Shopping Flutter Apps with Admin Panel
+                            </a></h6>
+                        <p class="card-text">Features:1.IntroScreen and Multi Select Categories Options.
+                            3. Homepage,Slid...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    erhacorpdotcom
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$145.23</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 4 end---------------- -->
+                <!-- -------------------------card 5--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-1250.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">Swift</a>
+                                </div>
+                                <div>
+                                    <a href="#">Content</a>
+                                </div>
+                                <div>
+                                    <a href="#">Data</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                PDF Scanner
+                            </a></h6>
+                        <p class="card-text">You get a sharp,high-quality scan.This application is useful the speed...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    Pinnacle APPs
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$139.87 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 5 end---------------- -->
+                <!-- -------------------------card 6--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-3389.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">C#</a>
+                                </div>
+                                <div>
+                                    <a href="#">.NET</a>
+                                </div>
+                                <div>
+                                    <a href="#">Human Resources</a>
+                                </div>
+                                <div>
+                                    <a href="#">Accounting</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                HR Manager Smart Business Tracker React App
+                            </a></h6>
+                        <p class="card-text">1. Asp.net frameworkd 4.6.1
+                            2. React native expo
+                            3. MS Sql Databse
+
+                            Please...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    isahaque
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$114.47</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 6 end---------------- -->
+                <!-- -------------------------card 7--------------------------- -->
+                <div class="card " id="featured_card" style="width: 261px;">
+                    <div class="card_image position-relative">
+                        <!-- -----------image-------- -->
+                        <img class="card-img-top" src="./image/thumbnail-1243.webp" alt="Card image cap">
+                        <!-- ----------language bar--------------- -->
+                        <div class="container ">
+                            <div class="card_img_div d-flex position-absolute">
+                                <div>
+                                    <a href="#">Swift</a>
+                                </div>
+                                <div>
+                                    <a href="#">Food & Beverages</a>
+                                </div>
+                                <div>
+                                    <a href="#">Mobile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------------like image--------------- -->
+                    <a href="#" class="like_img  position-absolute">
+                        <img src="./image/like.svg" alt="">
+                    </a>
+                    <!-- ---------------------card content---------------- -->
+                    <div class="card-body">
+                        <!-- ------------title------------ -->
+                        <h6 class="card-title"><a href="#">
+                                Food Recipe
+                            </a></h6>
+                        <p class="card-text">The application is specially optimized, extremely easy to configure, and...
+                        </p>
+                    </div>
+                    <!-- ----------------discount container------------- -->
+                    <div class="container discount_container">
+                        <div class="row discount">
+                            <p>added by
+                                <a href="#">
+                                    codervikas
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- -----------------price container ------------------- -->
+                    <div class="container price_container">
+                        <div class="row price_content">
+                            <div class="col">
+                                <a href="#" class="btn btn-primary" id="buttons">Buy</a>
+                            </div>
+                            <div class="col card_price">
+                                <p>$956.89</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------card 7 end---------------- -->
+            </div>
+            <!-- ------------------- end featured items owl carousel-------------------------- -->
+        </div>
+    </div>
+    <!-- --------------------innovation container------------------- -->
+    <div class="container-fluid innovation_container common_padding mb-4">
+        <!-- ----------innovation heading ------------ -->
+        <div class="text-center mb-4">
+            <h1>Striving For <span class="color_blue">Innovation</span></h1>
+        </div>
+        <div class="row">
+            <!-- ----------piecex column------------- -->
+            <div class="col-lg-4 text-center mb-4">
+                <a href="#">
+                    <img src="./image/Logo_PieceX.svg" alt="" width="35%">
+                </a>
+                <p class="mb-4 pt-4 piecex_text">Buy ready-to-use software source code and cut down development time and
+                    cost by 80% or Sell your own project for limitless profit on the PieceX Platform.</p>
+                <p>
+                    <a href="#" class="btn btn-primary" id="buttons">View details</a>
+                </p>
+            </div>
+            <!-- ----------end piecex column------------- -->
+            <!-- ----------piecex oss column------------- -->
+            <div class="col-lg-4 text-center mb-4">
+                <a href="#">
+                    <img src="./image/Logo_OSS_Dark.svg" alt="" width="45%">
+                </a>
+                <p class="mb-4 pt-4 piecex_text">Giving you the ability to browse, buy, and sell Open Source Support
+                    plans , PieceX OSS is a global marketplace that provides a wide variety of open source options and
+                    features all in the same place.</p>
+                <p>
+                    <a href="#" class="btn btn-primary" id="buttons">View details</a>
+                </p>
+            </div>
+            <!-- ----------end piecex oss column------------- -->
+            <!-- ----------piecex iot column------------- -->
+            <div class="col-lg-4 text-center mb-4">
+                <a href="#">
+                    <img src="./image/Logo_IoT_Dark.svg" alt="" width="45%">
+                </a>
+                <p class="mb-4 pt-4 piecex_text">To make hardware easier to use, PieceX IoT serves as a window to
+                    increase the amount of peripheral software in the market by allowing users to post their IoT
+                    Hardware for visibility and sell their IoT Software for profit.</p>
+                <p>
+                    <a href="#" class="btn btn-primary" id="buttons">View details</a>
+                </p>
+            </div>
+            <!-- ----------end piecex iot column------------- -->
+        </div>
+    </div>
+    <!-- -----------------end innovation container----------------- -->
+    <!-- --------------------popular industry container------------------- -->
+    <div class="container-fluid popular_industry common_padding mb-4">
+        <!-- ----------popular industry heading ------------ -->
+        <div class="industry_heading mb-4">
+            <h2>Popular <span class="color_blue">Industry</span></h2>
+            <p>Find tons of premium scripts among these industries currently trending with our users.</p>
+        </div>
+        <!-- -------------------popular industry owl carousel-------------------------- -->
+        <div class=" popular_carousel owl-carousel owl-theme">
+            <!-- -------------------popular industry card 1 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">1</h2>
+                    </div>
+                    <img src="./image/Retail3.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Retail</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 1 --------------------------- -->
+            <!-- -------------------popular industry card 2 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">2</h2>
+                    </div>
+                    <img src="./image/Finance3.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">FinTech </h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 2 --------------------------- -->
+            <!-- -------------------popular industry card 3 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">3</h2>
+                    </div>
+                    <img src="./image/HealthCare3.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Healthcare</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 3 --------------------------- -->
+            <!-- -------------------popular industry card 4 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">4</h2>
+                    </div>
+                    <img src="./image/Logistics2.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Logistics</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 4 --------------------------- -->
+            <!-- -------------------popular industry card 5 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">5</h2>
+                    </div>
+                    <img src="./image/EdTech2.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">EdTech</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 5 --------------------------- -->
+            <!-- -------------------popular industry card 6 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">6</h2>
+                    </div>
+                    <img src="./image/Manufacturing3.png" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Manufacturing</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular industry card 6 --------------------------- -->
+        </div>
+        <!-- -------------------popular industry owl carousel-------------------------- -->
+    </div>
+    <!-- --------------------end popular industry container------------------- -->
+
+    <!-- --------------------popular category container------------------- -->
+    <div class="container-fluid popular_category common_padding mb-4">
+        <!-- ----------popular category heading ------------ -->
+        <div class="category_heading mb-4">
+            <h2>Popular <span class="color_blue">Categories</span></h2>
+            <p>Choose the best Source Code for you among a variety of Categories.</p>
+        </div>
+        <!-- -------------------popular category owl carousel-------------------------- -->
+        <div class="popular_carousel owl-carousel owl-theme">
+            <!-- -------------------popular category card 1 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">1</h2>
+                    </div>
+                    <img src="./image/Rectangle(2).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Website</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 1 --------------------------- -->
+            <!-- -------------------popular category card 2 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">2</h2>
+                    </div>
+                    <img src="./image/Rectangle(1).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">E-Commerce </h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 2 --------------------------- -->
+            <!-- -------------------popular category card 3 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">3</h2>
+                    </div>
+                    <img src="./image/Rectangle(4).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">FinTech</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 3 --------------------------- -->
+            <!-- -------------------popular category card 4 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">4</h2>
+                    </div>
+                    <img src="./image/Rectangle(3).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">AI</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 4 --------------------------- -->
+            <!-- -------------------popular category card 5 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">5</h2>
+                    </div>
+                    <img src="./image/Rectangle(5).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Crypto Currency</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 5 --------------------------- -->
+            <!-- -------------------popular category card 6 --------------------------- -->
+            <div class="card popular_card" style="width: 185px;">
+                <a href="#">
+                    <!-- image container -->
+                    <div class="card_img ">
+                        <img src="./image/rectangle_rank.png" class="position-absolute" alt="...">
+                        <h2 class="ranking_number position-absolute">6</h2>
+                    </div>
+                    <img src="./image/Rectangle(6).webp" class="card-img-top" alt="">
+                    <div class="card-body blue-card">
+                        <h5 class="d-flex justify-content-center">Mobile Apps</h5>
+                    </div>
+                </a>
+            </div>
+            <!-- -------------------end popular category card 6 --------------------------- -->
+        </div>
+        <!-- -------------------popular category owl carousel-------------------------- -->
+    </div>
+    <!-- --------------------end popular category container------------------- -->
+
+    <!-- -------------------------how it work container----------------------- -->
+    <div class="container-fluid common_padding how_it_work">
+        <!-- ----------how it work heading ------------ -->
+        <div class="how_it_work_heading mb-4">
+            <h2>How <span class="color_blue">it works?</span></h2>
+            <p class="mt-2 mb-4">Thousands of Apps in just 4 simple steps</p>
+        </div>
+        <!-- ----------------image row---------------- -->
+        <div class="row mt-4">
+            <!-- ----------image column 1---------- -->
+            <div class="col-3 text-center ">
+                <img class="img-fluid" src="./image/howItWorks1.png" alt="">
+                <h4 class="text-center mt-3">Browse & Pick</h4>
+            </div>
+            <!-- ----------image column 2---------- -->
+            <div class="col-3 text-center">
+                <img class="img-fluid" src="./image/howItWorks2.png" alt="">
+                <h4 class="text-center mt-3">Complete Payment </h4>
+            </div>
+            <!-- ----------image column 3---------- -->
+            <div class="col-3 text-center">
+                <img class="img-fluid" src="./image/howItWorks3.png" alt="">
+                <h4 class="text-center mt-3">Download Code</h4>
+            </div>
+            <!-- ----------image column 4---------- -->
+            <div class="col-3 text-center">
+                <img class="img-fluid" src="./image/howItWorks4.png" alt="">
+                <h4 class="text-center mt-3">Customize Project </h4>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------end how it work container----------------------- -->
+    <!-- ----------------------testimonials container---------------- -->
+    <div class="container-fluid common_padding testimonials_container">
+        <!-- ---------------testimonials heading--------------- -->
+        <h2>Testimonials</h2>
+        <p class="mt-2 mb-4 pb-4">What our clients say about us</p>
+        <!-- ---------------testimonials card row------------- -->
+        <div class="row">
+            <div class="col-md-4">
+                <!-- ------------------testimonials card 1----------------- -->
+                <div class="card common_padding mt-4" id="test_card">
+                    <img class="testimonials_quotation position-absolute" src="./image/quotations.png" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PieceX is a great marketplace to sell B2B software Soure Code. The Request
+                            and Customization features are amazing ways to connect directly with buyers and understand
+                            their requirements. We are looking forward to sell more Business Apps on PieceX.</p>
+                        <div class="author">
+                            <strong>Nsikak Joseph Nelson, CEO.</strong>
+                            <p> Silex Secure</p>
+                        </div>
+                        <div class="image_right position-relative">
+                            <div class="content_image_right ">
+                                <img class="position-absolute" src="./image/silexlog (2).webp" alt="" width="100px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------end testimonials card 1----------------- -->
+            </div>
+            <div class="col-md-4">
+                <!-- ------------------testimonials card 2----------------- -->
+                <div class="card common_padding mt-4" id="test_card">
+                    <img class="testimonials_quotation position-absolute" src="./image/quotations.png" alt="">
+                    <div class="card-body position-relative">
+                        <p class="card-text">Source Code bought from PieceX can be extremely helpful in accelerating
+                            project development, specially when your client is not willing to provide a high budget.
+                            Ready-to-use Source Code bought from PieceX helps reduce the overall time and cost of
+                            development.</p>
+                        <div class="author">
+                            <strong>Mitul Moradiya, CEO</strong>
+                            <p> SSR Softech</p>
+                        </div>
+                        <div class="image_right position-relative">
+                            <div class="content_image_right ">
+                                <img class="position-absolute" src="./image/ssrsofttech (1).webp" alt="" width="80px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------end testimonials card 2----------------- -->
+            </div>
+            <div class="col-md-4">
+                <!-- ------------------testimonials card 3----------------- -->
+                <div class="card common_padding mt-4" id="test_card">
+                    <img class="testimonials_quotation position-absolute" src="./image/quotations.png" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PieceX is the best marketplace for selling Source Code, specially with its
+                            unique dynamic pricing catered for by PieceX’s AI. This AI helps sellers earn more revenue
+                            and also relieves the burden from the team to constantly monitor the price and update it as
+                            per market demand. All pricing is completely taken care by the AI mechanism of PieceX.</p>
+                        <div class="author">
+                            <strong>Sharath M, CEO</strong>
+                            <p>Elvee Infotech</p>
+                        </div>
+                        <div class="image_right position-relative">
+                            <div class="content_image_right ">
+                                <img class="position-absolute" src="./image/elveeInfo (1).webp" alt="" width="80px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------end testimonials card 3----------------- -->
+            </div>
+        </div>
+        <!-- ---------------end testimonials card row------------- -->
+    </div>
+    <!-- ----------------------end testimonials container---------------- -->
+    <!-- -------------------------banner frame----------------- -->
+    <div class="banner_frame">
+        <!-- -------------------inner seller-------------- -->
+        <div class="inner_seller position-relative pb-4">
+            <!-- comment icon  -->
+            <img class="position-absolute" src="./image/comment-icon.png" alt="" width="150px">
+            <div class="continer-fluid">
+                <!-- seller head -->
+                <div class="seller_img_head row">
+                    <h2 class="seller_head mt-4 ">
+                        Not Sure How PieceX Can Help You?
+                    </h2>
+                </div>
+                <!-- seller content -->
+                <div class="seller_content col-lg-7 mt-4">
+                    <p><strong>Book a free consultation or send us a message.
+                        </strong></p>
+                    <p>Don’t hesitate to book a free consultation session with one of our experts by clicking the
+                        Contact Us button.</p>
+                </div>
+                <!-- contact button  -->
+                <a href="#" class="btn btn-light btn-md ml-4 mb-4 " id="button_light">
+                    Contact us
+                </a>
+            </div>
+        </div>
+        <!-- -------------------end inner seller-------------- -->
+    </div>
+    <!-- -------------------------end banner frame----------------- -->
+    <!-- -------------become a seller container----------------------- -->
+    <div class="container-fluid common_padding">
+        <div class="row  position-relative align-items-center">
+            <!-- ---------------content column------------- -->
+            <div class="col-md-7">
+                <div class="content">
+                    <h2 class="mb-4">Become <span class="color_blue">A Seller</span></h2>
+                    <p class="become_text"><strong>List your Software Source Code for sale on the PieceX platform </strong>
+                        and generate passive income in just a few simple steps.</p>
+                    <div class="mt-5 selling_btn">
+                        <a href="#" class="btn btn-primary" id="buttons">Start selling</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ----------------image column------------- -->
+            <div class="col-md-4 offset-lg-1">
+                <img src="./image/seller_home.png" alt="" width="70%">
+                <img class="position-absolute plant_img" src="./image/plant-home.png" alt="" height="50%">
+            </div>
+        </div>
+    </div>
+    <!-- -------------end become a seller container----------------------- -->
+
+
+    <!-- -------------piecex enterprise container----------------------- -->
+    <div class="container-fluid common_padding ">
+        <div class="row">
+            <!-- ---------------content column------------- -->
+            <div class="col-md-7">
+                <div class="content">
+                    <h2 class=" mb-4">PieceX <span class="color_blue">Enterprise</span></h2>
+                    <p class="piecex_text">Buy, sell, and recycle software modules and set up businesses quickly with PieceX Enterprise
+                        Solutions.</p>
+                    <p>
+                        Buy, sell, and recycle software modules and build your business quickly with PieceX Enterprise
+                        Solutions.
+                        <br>
+                        With a giant library of inspected fully-scalable enterprise-level software source code, you will
+                        be able to build your business or upgrade your features with time and cost efficiency.
+                        <br> You can also reuse your fully-developed enterprise-level source code and list it for sale
+                        with PieceX’s Enterprise Solutions.
+                    </p>
+                    <div class="Book_btn">
+                        <a href="#" class="btn btn-primary" id="buttons">Book Free Consultation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------video frame -------------------- -->
+            <div class="video-iframe offset-md-1 col-8 col-md-4">
+                <iframe src="https://www.youtube.com/embed/ELA4pZrI4EM" frameborder="0" width="100%" height="300px"></iframe>
+            </div>
+            <!-- ---------------------end video frame -------------------- -->
+        </div>
+    </div>
+    <!-- -------------end piecex enterprise container----------------------- -->
+
+    <!-- -------------------------enterprise frame----------------- -->
+    <div class="enterprise_frame">
+        <!-- -------------------inner seller-------------- -->
+        <div class="inner_seller position-relative pb-4">
+            <!-- comment icon  -->
+            <img class="position-absolute" src="./image/enterprise-icon.png" alt="" width="150px">
+            <div class="continer-fluid">
+                <!-- seller head -->
+                <div class="seller_img_head row">
+                    <h2 class="seller_head mt-4 ">
+                        PieceX Enterprise
+                    </h2>
+                </div>
+                <!-- seller content -->
+                <div class="seller_content col-lg-7 mt-4">
+                    <p><strong>Make use of the PieceX Marketplace on an enterprise level and get all the source code,
+                            support plans, and accessibilities your company needs.
+                        </strong></p>
+                    <p>Book a free consultation or send us a message.</p>
+                </div>
+                <!-- contact button  -->
+                <a href="#" class="btn btn-light btn-md ml-4 mb-4 " id="button_light">
+                    Contact us
+                </a>
+            </div>
+        </div>
+        <!-- -------------------end inner seller-------------- -->
+    </div>
+    <!-- -------------------------end enterprise frame----------------- -->
+    <!-- --------------------spread the world container--------------------- -->
+    <div class="container-fluid common_padding">
+        <h1 class="text-center">Spread <span class="color_blue">The Word</span></h1>
+        <div class="row text-center">
+            <div class="col-md-6 ">
+                <img src="./image/affiliate.png" alt="" width="100%">
+                <div class="card-text">
+                    <h2> Become PieceX Sales Agency </h2>
+                    <p>Earn 5% of each purchase made by your link!</p>
+                    <p>A special program for well-connected companies. Join the PieceX Sales Agency Program and monetize each purchase made by your sales team.</p>
+                    <div class="strated_btn">
+                        <a href="#" class="btn btn-primary" id="buttons">Get started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./image/partner.png" alt="" width="100%">
+                <div class="card-text ">
+                    <h2>Become PieceX Affiliate</h2>
+                    <p>Earn 10% of the first purchase made by your referral!</p>
+                    <p>Recommend PieceX on your website using widgets, and earn up to 10% of the first purchase with every referral.</p>
+                    <div class="strated_btn">
+                        <a href="#" class="btn btn-primary" id="buttons">Get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------end spread the world container--------------------- -->
+
+    <!-- ---------------------piecex wallet container----------------- -->
+    <div class="container-fluid common_padding">
+        <div class="text-center">
+            <h2>PieceX <span class="color_blue">Wallet</span></h2>
+            <img src="./image/wallet-home.png" alt="" width="30%">
+            <p class="piecex_wallet_text"><span>Expedite The Software Acquisition Process!!</span></p>
+            <p>New form of payment for companies and sole proprietors who wish to simplify Source Code purchase and save money.</p>
+            <div class="strated_btn">
+                <a href="#" class="btn btn-primary" id="buttons">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------- end piecex wallet container----------------- -->
+    <!-- ----------------------stay section------------------ -->
+<!-- stay banner -->
+<section class="stay">
+    <img src="https://www.piecex.com/assets/img/common/user-icon.png" class="mobile-symbol" alt="user-symbol">
+    <div class="inner-stay-updated">
+        <div class="row p-4 inner-seller">
+            <div class="col-md-6">
+                <div class="mt-2 pt-4 text-light ">
+                    <h2 class="fw-bold">Stay in touch</h2>
+                    <div class="mt-2 pt-4">
+                        <form action="/Pages/subscribe" class="m-0" id="PagesSubscribeForm" method="post"
+                            accept-charset="utf-8">
+                            <div style="display:none; "><input type="hidden" name="_method" value="POST"></div>
+                            <div style="display:none;"><input type="hidden" name="_method" value="POST">
+                            </div>
+                            <input placeholder="Please enter your email" required="required"
+                                class="email-input form-control" type="email" id="PagesEmail"
+                                style="border-radius:30px ;">
+                            <button class="btn btn-default bg-light mt-4" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4 pt-4 container">
+                <p class="mt-2 pt-4 fs-5 p-md-4 subInnerText"><span class="d-none d-lg-block text-light">Get
+                        Practical Tips For Business and Developers. <br>
+                        Learn about PieceX Community Needs for Source Code Projects. <br>
+                    </span>
+                    <span class="text-light"> Be the First to Know PieceX Newest Free Community Code
+                        Projects.</span>
+                </p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <!-- ------------------------------end stay section----------------------- -->
+    <!-- --------------------footer section-------------------------- -->
+<!-- footer -->
+<div class="container-fluid common-padding footer">
+    <footer class="row row-cols-8 py-5 ">
+        <div class="col-sm-2 mx-sm-5 mb-4">
+            <h5>By Category</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Web Source</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">IOS</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Android Apps</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> PHP Scripts and Website
+                        Source Codes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> FinTech</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 mb-4">
+            <h5>More About PieceX</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Become an Affiliate</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Become a Sales Agency</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Rankings</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">How it Works</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 mb-4">
+            <h5>Media</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Articles</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Blog</a></li>
+
+            </ul>
+        </div>
+        <div class="col-sm-2 mb-4">
+            <h5> License</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> License</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Refund Policy</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Management Company</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Support</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-2 mb-4">
+            <h5> Terms of Service</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> Terms of Service</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Wallet Terms of
+                        Service</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Points Terms of
+                        Service</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"> PieceX for OSS Terms of
+                        Service</a></li>
+
+            </ul>
+        </div>
+        <div class=" col-sm-2" id="contacts">
+            <!-- <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img class="navbar-brand" src="https://www.piecex.com/assets/img/common/home/Logo_Transparent.png" style="width:10rem;" alt="">
+                </a> -->
+            <div class="col">
+                <div>
+                    <a href="/" class="d-flex align-items-center mb- link-dark text-decoration-none">
+                        <p class="text-light">Contact us</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="/" class="d-flex align-items-center mb- link-dark text-decoration-none">
+                        <p class="text-light">supportcenter@piecex.com</p>
+                    </a>
+                </div>
+                <div>
+                    <a id="icon" href="">
+                        <img src="https://www.piecex.com/assets/img/common/home/fb.svg" alt="">
+                    </a>
+                    <a id="icon" href="">
+                        <img src="	https://www.piecex.com/assets/img/common/home/twitter.svg" alt="">
+                    </a>
+                    <a id="icon" href="">
+                        <img src="https://www.piecex.com/assets/img/common/home/insta.svg" alt="">
+                    </a>
+                    <a id="icon" href="">
+                        <img src="	https://www.piecex.com/assets/img/common/home/linkedin.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</div>
+<!-- footer on desktop  -->
+<div class="container-fluid mt-2" id="foot">
+    <div class="row">
+        <div class=" col-6">
+            <a href="/" class="  link-dark text-decoration-none">
+                <img class="navbar-brand mb-2"
+                    src="https://www.piecex.com/assets/img/common/home/Logo_Transparent.png" style="width:10rem;"
+                    alt="">
+            </a>
+            <a href="/" class=" link-dark text-decoration-none">
+                <p class="text-primary">Contact us</p>
+            </a>
+            <a href="/" class=" link-dark text-decoration-none">
+                <p class="text-secondary">supportcenter@piecex.com</p>
+            </a>
+        </div>
+        <div
+            class="col-6 d-flex align-items-center justify-content-center justify-item-center my-5 mb-3 link-dark text-decoration-none">
+
+            <div>
+                <a class="ms-4" id="icon" href="">
+                    <img src="https://www.piecex.com/assets/img/common/home/fb.svg" alt="">
+                </a>
+                <a class="ms-4" id="icon" href="">
+                    <img src="	https://www.piecex.com/assets/img/common/home/twitter.svg" alt="">
+                </a>
+                <a class="ms-4" id="icon" href="">
+                    <img src="https://www.piecex.com/assets/img/common/home/insta.svg" alt="">
+                </a>
+                <a class="ms-4" id="icon" href="">
+                    <img src="	https://www.piecex.com/assets/img/common/home/linkedin.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- mobile view nav bar -->
+<div class="container-fluid d-flex justify-content-around fixed-bottom bg-light shadow-lg p-2  d-lg-none"
+    style="height:10%" id="navar">
+    <div>
+        <i><span class="material-symbols-outlined ms-4 fs-1 ">favorite</span></i>
+        <span>Favorites</span>
+    </div>
+    <div>
+        <i><span class="material-symbols-outlined ms-4 fs-1"> notifications</span></i>
+        <span>Notification</span>
+    </div>
+    <div>
+        <i><span class="material-symbols-outlined ms-4 fs-1">desktop_windows</span></i>
+        <span>Enterprise</span>
+    </div>
+    <div>
+        <span class="badge bg-primary position-absolute" style="font-size:8px; margin-left: 16px;">0</span>
+        <i><span class="material-symbols-outlined ms- fs-1">shopping_cart</span></i>
+        <span>Cart</span>
+
+    </div>
+    <div>
+        <i><span class="material-symbols-outlined ms-3 fs-1">person</span></i>
+        <span>Account</span>
+    </div>
+</div>
+    <!-- --------------------------end footer section------------------------ -->
+</body>
+
+</html>

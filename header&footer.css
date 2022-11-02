@@ -1,0 +1,132 @@
+/* ---------------------header and footer css------------------------ */
+.search .fa-search{
+
+    position: absolute;
+    top: 20px;
+    left: 650px;
+
+}
+.email-input {
+    border-radius: 30px;
+}
+.inner-seller {
+    margin: 3%!important;
+    background-color: #4250d2ab;
+}
+.stay {
+    background-image: url(https://www.piecex.com/assets/img/common/bannerFrame.png);
+    background-size:  100% 100%;
+    /* object-fit: fill; */
+    padding: 2rem 0;
+    position: relative;
+    z-index: 0;
+}
+.mobile-symbol {
+    display: none;
+    width: 100px;
+    top: -25px;
+    position: absolute;
+    margin-left: 70%;
+    float: right;
+}
+
+   #icon{
+    color: rgba(255, 255, 255, 0);
+   }
+   .bluediv{
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 11px;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    min-width: 100px;
+   }
+   #sign_btn{
+    padding: 6px 30px;
+    height: fit-content;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#sign_btn:hover{
+    background: none;
+    background-color: black;
+}
+ 
+   .footer{
+    background-image: linear-gradient(180deg,#404BD5,#6E76DF);
+    color: #fff;
+   }
+   #icons{
+    font-family: FontAwesome;
+   }
+   .img_logo{
+    width: 84px;
+   }
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    #add{
+        display: none;
+    }
+    #btn{
+        display: none;
+    }
+    #foot{
+        display: none;
+    }
+    
+   #navar{
+    display: none;
+   }
+   .mobile-symbol{
+    display: block;
+   }
+   .footer{
+    margin-bottom: 51px;
+   }
+   
+   .search{
+    width: 106px;
+    margin-right: 13px;
+   }
+   .img_logo{
+    margin-left:-13px;
+   }
+    
+  
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#contacts{
+    display:block;
+}
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (min-width: 600px) {
+    #contacts{
+        display: none;
+    }
+    #navar{
+        display: none;
+       }
+    #mobileNav{
+        display:none;
+    }
+    #navbarNavDropdown{
+    margin-left: 36px;
+    }
+    .img_logo{
+        margin-left: 31px;
+       }
+       
+  }
+  /* ------------------end header and footer css------------ */

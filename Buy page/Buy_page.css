@@ -1,0 +1,113 @@
+
+.cards{
+    font-size: small;
+}
+.cards .card .image_container a{
+    color: black;
+}
+.cards .card .image_container a:hover,
+.cards .card .card-body p a:hover,
+.cards .card .card-body h6 a:hover
+{
+    color: blue;
+}
+.cards .card .card-body h6
+{
+    height: 40px;
+    overflow: hidden;
+}
+.cards .card .card-body p{
+    height: 35px;
+    overflow: hidden;
+}
+.cards .card .card-body {
+height: 220px;
+}
+.cards .card .card-body p a,
+.cards .card .card-body h6 a
+{
+    font-weight: 600;
+    color: black;
+}
+.like_img{
+    top: 10px;
+    right: 10px;
+}
+#buy_btn{
+    border: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#buy_btn:hover{
+    background: none;
+    background-color: black;
+}
+.card .card-body .card-text{
+    font-size: 12px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.side_scroll_bar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.side_scroll_bar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* ------------------futured products container------------------- */
+.futured_product .mid_div{
+    background-image: url('./image/mid_div.png');
+}
+/* -----------------buy code button------------- */
+.buy_code_btn:hover{
+    background-color: black;
+    color: white;
+}
+/* ---------------buy page container--------------- */
+@media screen and (max-width:1280px) {
+    .buy_page{
+      padding-top: 20vh !important;
+    }  
+  }
+@media screen and (max-width:1024px) {
+  .buy_page{
+    padding-top: 33vh !important;
+  }  
+}
+@media screen and (max-width:912px) {
+    .buy_page{
+      padding-top: 10vh !important;
+    }  
+  }
+  @media screen and (max-width:768px) {
+    .buy_page{
+      padding-top: 12vh !important;
+    }  
+  }
+  @media screen and (max-width:540px) {
+    .buy_page{
+      padding-top: 15vh !important;
+    }  
+  }
+  @media screen and (max-width:414px) {
+    .buy_page{
+      padding-top: 12vh !important;
+    }  
+  }
+  @media screen and (max-width:375px) {
+    .buy_page{
+      padding-top: 15vh !important;
+    }  
+  }
+  @media screen and (max-width:280px) {
+    .buy_page{
+      padding-top: 18vh !important;
+    }  
+    .cards .card .image_container .container-fluid div{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+   
+  
+  }
+  /* ---------------end buy page container--------------- */

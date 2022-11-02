@@ -1,0 +1,157 @@
+/* ---------------------piecex signup container----------- */
+.piecex_content{
+    height: 100%;
+    background: url('./image/login-new-bg.png') center center no-repeat;
+    background-size: cover;
+}
+.color_white{
+    color: white;
+}
+/* ------------------piecex content container----------------- */
+.piecex_title{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.text_box{
+    margin: 30px 30px 0 30px;
+}
+
+.piecex_content li{
+    list-style-type: none;
+    background-image: url('./image/tick.png');
+    background-repeat: no-repeat;
+    padding: 0 0 0 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.startup{
+    padding-right: 30px;
+}
+.startup:hover{
+    color: white;
+    text-decoration: none;
+}
+.piecex_content{
+    position: fixed;
+}
+@media screen and (max-width:992px) {
+    .piecex_content{
+        position: relative;
+        padding: 30px 12%;
+        text-align:left;
+    }
+    .text_box{
+        padding: 0;
+    }
+}
+/* ----------------------signup container--------------- */
+.signup_box{
+    margin:30px  50px;
+}
+.signup_box .title{
+    font-size: 22px;
+    font-weight: 400;
+}
+.login_container p  #login_btn{
+    margin-left: 20px;
+    padding: 5px 40px;
+}
+@media screen and (max-width:992px) {
+    .signup_box{
+        margin:30px 10px;
+    }
+}
+/* -----------socail icon ------------ */
+.social_icon i{
+    font-size: 20px;
+}
+.social_icon a {
+    color: white; 
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.social_icon div{
+    margin: 5px;
+    border-radius: 50%;
+
+}
+.social_icon .facebook {
+    background-color: blue;
+}
+.social_icon .github {
+    background-color: black;
+}
+.social_icon .google{
+    background-color: red;
+}
+.or hr{
+    margin: 30px 20% 0 20%;
+}
+.or p{
+    margin: -20px 0 0 47%;
+    font-size: 22px;
+    padding: 0 5px;
+    background-color: white;
+}
+/* ----------------contact form----------------- */
+.contact_form{
+    font-size: 15px;
+}
+.contact_form .row input{
+    width: 100% !important;
+    border: none;
+    outline: none;
+    background-color: #F2F1F9;
+}
+.contact_form .row .input_box{
+    padding: 7px 10px;
+    background-color: #F2F1F9;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.contact_form .row .icons{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+}
+#date_of_birth{
+    width: 100%;
+    padding: 7px 10px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background-color: #F2F1F9;
+    border-radius: 5px;
+}
+.check_box{
+    padding-left: 30px;
+}
+.check_box .checkbox{
+    left: -48%;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/* ----------------create button------------- */
+#create_btn{
+    padding: 10px 40px;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#create_btn:hover{
+    background: none;
+    background-color: black;
+}
+/* -------------------contact form footer--------------- */
+.contact_footer li{
+    margin: 0 20px;
+list-style-type: none;
+}
+.contact_footer li a{
+   color: black;
+}

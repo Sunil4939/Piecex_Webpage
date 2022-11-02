@@ -1,0 +1,327 @@
+
+/* ---------------------banner section------------------ */
+.banner-section a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.banner-section {
+    padding-bottom: 5rem;
+    background-image: url('./image/piecex-hero-bg.png');
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.banner_container {
+    padding: 0 3%;
+}
+/* --------------color blue-------------- */
+.color_blue{
+    color: blue;
+}
+/* -----------------column logo width-------------------- */
+.col_logo_icon {
+    width: 100%;
+}
+
+.piecex_logo_white {
+    width: 50%;
+    margin-top: -15px;
+}
+
+/* ----------------column content------------------- */
+.column_content {
+    text-align: center;
+    padding-top: 13rem;
+}
+
+.pt_5 {
+    padding-top: 3rem !important;
+}
+
+.pt_4 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem !important;
+}
+
+/* ----------------------search bar css----------------------------- */
+.search_bar {
+    border-radius: 16px;
+    background-color: white;
+    margin: 4rem 0;
+    padding: 5px 10px;
+}
+
+#product_search {
+    border: none;
+    box-shadow: none;
+}
+/* ---------------------------piecex container-------------------------- */
+.piecex_container{
+    width: 60%;
+    height: fit-content;
+    margin: 0 20%;
+}
+.piecex_container a{
+    color: white;
+    text-decoration: none;
+}
+/* ----------------------carousel / slider --------------------- */
+
+.carousel_items{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+
+.carousel_item_1{
+    background-image: url('./image/mobile-hero-iot.png');
+    background-repeat: no-repeat;
+    height: 560px;
+
+}
+.carousel_item_2{
+    background-image: url('./image/mobile-hero-piecex.png');
+    background-repeat: no-repeat;
+    height: 560px;
+}
+.carousel_item_3{
+    background-image: url('./image/mobile-hero-oss.png');
+    background-repeat: no-repeat;
+    height: 560px;
+}
+
+/* ------------------------banner and carousel media quary---------------------- */
+@media screen and (max-width: 1030px) {
+    .banner-section{
+    display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .column_content {
+        height: 350px;
+        padding-top: 5rem;
+    }
+}
+/* --------------------------------language container----------------------------------- */
+
+.language_container{
+    padding: 2rem;
+    background-color: #d3ceed4a;
+}
+.language_container a{
+    width: max-content;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+/* -------------------------featured items---------------------------- */
+.common_padding{
+    padding: 4% !important;
+}
+
+.featured_items .viewprod{
+   right: 0;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+/* -------------- card image div----------------- */
+
+.card_img_div{
+    margin:0 0 0 -5px ;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-color: white;
+    bottom: 0;
+}
+.card_img_div div{
+    padding: 0 5px;
+    margin: 0 5px;
+    background-color: #F2F1FA;
+}
+
+/* ------------card decoration-------------- */
+.like_img{
+    top: 10px;
+    right: 10px;
+}
+.card-body a,
+.discount a,
+.card_img_div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.card-body a:hover,
+.discount a:hover,
+.card_img_div a:hover{
+    color: blue;
+}
+.card_image,
+.card-body,
+.discount_container{
+    font-size: small;
+}
+#featured_card{
+   padding: 0 0 20px 0;
+}
+#featured_card .card-body h6{
+    height: 40px;
+}
+.price_content{
+    align-items: center;
+    justify-content: center;
+}
+.card_price p{
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+/* -----------buy button--------- */
+#buttons{
+    padding: 10px 40px;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#buttons:hover{
+    background: none;
+    background-color: black;
+}
+#sign_btn{
+    padding: 6px 30px;
+    height: fit-content;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#sign_btn:hover{
+    background: none;
+    background-color: black;
+}
+/* -------------------innovation container------------------ */
+
+.innovation_container .piecex_text{
+    font-size: 16px;
+    height: 150px;
+}
+/* -------------------popular industry and popular category--------------- */
+
+.popular_card a{
+    background:#414cd9;
+    text-decoration: none;
+    color: white !important;
+    vertical-align: middle;
+    transition: .5s;
+}
+.popular_industry .ranking_number,
+.popular_category .ranking_number
+{
+    right: 48%;
+    top: 8%;
+}
+.popular_card:hover{
+    transform: scale(1.05);
+}
+/* -- -------------------------how it work container-----------------------  */
+
+@media (max-width: 541px){
+.how_it_work h4 {
+    font-size: 13px;
+}
+}
+/* -- ---------------testimonials container---------------  */
+.testimonials_container .testimonials_quotation{
+    width: 70px;
+    top: -30px;
+    left: 30px;
+}
+.testimonials_container #test_card .card-body{
+    color: blue;
+    font-size: 16px;
+}
+.testimonials_container #test_card .card-body .card-text{
+    height: 65%;
+}
+.content_image_right{
+    height: 70px;
+}
+.content_image_right img{
+    right: 0;
+}
+.testimonials_container #test_card{
+    height: 90%;
+box-shadow: 0.6rem 0.43rem 0.9rem 0.23rem rgb(0 0 0 / 10%) !important;
+    border: none;
+}
+/* ----------------banner frame and enterprise frame--------------- */
+.banner_frame,
+.enterprise_frame{
+    padding: 2% 0;
+    margin: 60px 0;
+    background-image: url('./image/bannerFrame.png');
+    background-size: cover;
+}
+.banner_frame .inner_seller,
+.enterprise_frame .inner_seller
+{
+    margin: 0 3% 0 3% !important;
+    padding-left: 20px;
+    background-color: #4250d2ab;
+    color: white;
+}
+.banner_frame .inner_seller img,
+.enterprise_frame .inner_seller img
+{
+    top: -50px;
+    right: 0;
+}
+.banner_frame .inner_seller p,
+.enterprise_frame .inner_seller p
+{
+    font-size: 20px;
+    opacity: .9;
+}
+#button_light{
+    color: blue;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+@media screen and (max-width:850px) {
+    .video_frame .row .video-iframe iframe
+    {
+        height: 200px;
+    }
+    }
+@media screen and (max-width:650px) {
+.banner_frame .inner_seller img,
+.enterprise_frame .inner_seller img
+{
+    width: 100px;
+}
+
+}
+/* ------------------become a seller container------------------ */
+.become_text{
+    font-size: 20px;
+}
+.plant_img{
+    top: 20%;
+    right: -3.3%;
+}
+/* ------------------piecex enterprise container------------------ */
+.piecex_text{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ---------------------piecex wallet container----------------- */
+.piecex_wallet_text{
+    font-weight: 600;
+}

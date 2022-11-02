@@ -1,0 +1,57 @@
+.dashboard_container .row .list-group a{
+    background-color: #F8F8F8;
+    color: #828282;
+    border: none;
+    margin-top: 5px;
+}
+.dashboard_container .row .list-group a span i{
+    width: 20px;
+}
+.activity_container .row .col .card_icon{
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.activity_container .row .col a{
+    box-sizing: border-box;
+}
+.activity_container .row .col a .card_btn{
+    padding: 1rem 0;
+    height: 120px;
+    border: 1px solid black;
+}
+.activity_container .activity_body .text-secondary a:hover{
+    color: blue !important;
+}
+/* --------------profile top image------------- */
+
+.single-product-image img {
+    width: 100%;
+    background-blend-mode: color-burn;
+    background-image: url(https://www.piecex.com/blog/wp-content/uploads/2019/02/TopImageAI-1.png), linear-gradient(130deg, #18ba9b 25%, rgba(108, 150, 135, .9) 100%)!important;
+    height: 100px;
+}
+.profile_img {
+    width: 100px;
+    height: 100px;
+    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    border-radius: 100%;
+    margin-top: -60px;
+}
+/* -----------------profile card--------------- */
+.profile_card .single-cards-item .single-product-text .row .col-4 .card-text a:hover p ,
+.profile_card .single-cards-item .single-product-text .my_point  a:hover p
+{
+    color: blue !important;
+}
+
+#refer_btn{
+    border: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#refer_btn:hover{
+    background: none;
+    background-color: black;
+}
+

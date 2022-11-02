@@ -1,0 +1,12 @@
+.dashboard_container .row .list-group a{
+    background-color: #F8F8F8;
+    color: #828282;
+    border: none;
+    margin-top: 5px;
+}
+.dashboard_container .row .list-group a span i{
+    width: 20px;
+}
+ #h_blue:hover {
+    color: blue !important;
+}

@@ -1,0 +1,8 @@
+.strip-bottom {
+    width: 190px;
+    transform: skewX(-15deg) translateX(80px);
+}
+.strip-top {
+    width: 220px;
+    transform: skewX(20deg) translateX(90px);
+}

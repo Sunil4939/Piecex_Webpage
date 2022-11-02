@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------------------bootstrap files--------------------------- -->
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.css">
+    <script src="./Bootstrap/bootstrap.js"></script>
+    <!-- ---------------icon script file ------------------------ -->
+    <script src="https://kit.fontawesome.com/c35cf6c8c5.js" crossorigin="anonymous"></script>
+    <!-- --------------------css file------------------ -->
+    <link rel="stylesheet" href="signup.css">
+    <title>Piecex-SignUp</title>
+</head>
+
+<body>
+    <!-- ---------------------piecex signup container------------- -->
+    <div class="container-fluid piecex_signup">
+        <div class="row">
+            <!-- ---------------------piecex content container--------------- -->
+            <div class="col-lg-6 piecex_content ">
+                <div class="text_box">
+                    <div class="logo mb-4">
+                        <a href="#" class="d-flex justify-content-center">
+                            <img class="mt-4 mb-4" src="./image/Logo_PieceX_w.png" alt="" width="40%">
+                        </a>
+                    </div>
+                    <!-- -----------piecex title------------- -->
+                    <div class="piecex_title">
+                        <div class="color_white">What you can do on PieceX:</div>
+                        <p class="color_white">Get yourself on the first AI-Based Global Market for Source Code</p>
+                    </div>
+                    <!-- -----------end piecex title------------- -->
+                    <!-- ------------------------content list--------------------- -->
+                    <ul class="list-group mb-4">
+                        <li>
+                            <b>Marketplace</b>
+                            - Buy/Sell Source Code in any Programming Language
+                        </li>
+                        <li>
+                            <b>PieceX OSS</b>
+                            - Get/Provide Support for your Open Source Code
+                        </li>
+                        <li>
+                            <b>PieceX IoT</b>
+                            - List your IoT Software for an endless variety of potential
+                        </li>
+                        <li>
+                            <b>Wallet</b>
+                            - Easier budget management with PieceX Wallet for prepaid payment
+                        </li>
+                        <li>
+                            <b>Request</b>
+                            - Request the source code you want from tens of thousands of users
+                        </li>
+                        <li>
+                            <b>Community</b>
+                            - Build connections with Buyers and potential Business Partners
+                        </li>
+                        <li>
+                            <b>Global network</b>
+                            - Expand your Network overseas and Increase your Standing in the Market
+                        </li>
+                    </ul>
+                    <!-- ------------------------end content list--------------------- -->
+                    <a href="#" class="color_white startup mt-1">Are you a startup or company! </a>
+                    <a href="#" class="btn btn-success mt-1">Create Enterprise Account</a>
+                </div>
+            </div>
+            <!-- ---------------------end piecex content container--------------- -->
+            <!-- -------------------------signup container------------------------- -->
+            <div class="col-lg-6 offset-sm-1 col-10 offset-lg-6 text-center">
+                <div class="signup_box position-relative">
+                    <!-- -----------login container----------- -->
+                    <div class="login_container text-end">
+                        <p>Already have an account?
+                            <a href="#" class="btn btn-success ml-4" id="login_btn">Login</a>
+                        </p>
+                    </div>
+                    <p class=" text-center title">Sign up with</p>
+                    <!-- ------------------form content---------------- -->
+                    <form action="">
+                        <!-- -------------social icons container------------------ -->
+                        <div class="social_icon d-flex justify-content-center">
+                            <div class="d-flex justify-content-center facebook ">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-center github">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-center google">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="fa-brands fa-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- -------------end social icons container------------------ -->
+                        <div class="or">
+                            <hr>
+                            <p class="position-absolute">Or</p>
+                        </div>
+                        <!-- --------------------contact form----------------- -->
+                        <div class="contact_form mt-2">
+                            <div class="row">
+                                <!-- -----------------------user name container--------------- -->
+                                <div class="col-md-12">
+                                    <div class="input_box">
+                                        <input type="text" placeholder="User Name">
+                                    </div>
+                                </div>
+                                <!-- -----------------------end user name container--------------- -->
+                                <!-- -----------------------email container--------------- -->
+                                <div class="col-md-12">
+                                    <div class="input_box  position-relative">
+                                        <input type="email" placeholder="Email Address">
+                                        <div class="icons">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -----------------------end email container--------------- -->
+                                <!-- -----------------------password container--------------- -->
+                                <div class="col-md-12">
+                                    <div class="input_box position-relative">
+                                        <input type="password" placeholder="Password">
+                                        <div class="icons">
+                                            <i class="fa-solid fa-key"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- -----------------------end password container--------------- -->
+                                <!-- -----------------------url link container--------------- -->
+                                <div class="col-md-12">
+                                    <div class="input_box position-relative">
+                                        <input type="text" placeholder="Website URL (Optional)">
+                                        <div class="icons">
+                                            <i class="fa-solid fa-link"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ----------------------end url link container--------------- -->
+                                <!-- -----------------------date of birth container--------------- -->
+                                <div class="col-md-12 mb-4">
+                                    <div class="text-start">
+                                        Date of Birth
+                                        <span class="text-danger">*</span>
+                                    </div>
+                                    <div class="row date_input_box">
+                                        <!-- month list -->
+                                        <div class="col-sm-4 mt-2">
+                                            <select name="data[User][birth_month]" id="date_of_birth">
+                                                <option value="0">Month</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                        </div>
+                                        <!-- end month list-->
+                                        <!-- day list -->
+                                        <div class="col-sm-4 mt-2">
+                                            <select name="data[User][birth_day]" id="date_of_birth">
+                                                <option value="0">Day</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select>
+                                        </div>
+                                        <!-- end day list -->
+                                        <!-- year list -->
+                                        <div class="col-sm-4 mt-2">
+                                            <select name="data[User][birth_year]" id="date_of_birth">
+                                                <option value="0">Year</option>
+                                                <option value="1">1950</option>
+                                                <option value="2">1951</option>
+                                                <option value="3">1952</option>
+                                                <option value="4">1953</option>
+                                                <option value="5">1954</option>
+                                                <option value="6">1955</option>
+                                                <option value="7">1956</option>
+                                                <option value="8">1957</option>
+                                                <option value="9">1958</option>
+                                                <option value="10">1959</option>
+                                                <option value="11">1960</option>
+                                                <option value="12">1961</option>
+                                                <option value="13">1962</option>
+                                                <option value="14">1963</option>
+                                                <option value="15">1964</option>
+                                                <option value="16">1965</option>
+                                                <option value="17">1966</option>
+                                                <option value="18">1967</option>
+                                                <option value="19">1968</option>
+                                                <option value="20">1969</option>
+                                                <option value="21">1970</option>
+                                                <option value="22">1971</option>
+                                                <option value="23">1972</option>
+                                                <option value="24">1973</option>
+                                                <option value="25">1974</option>
+                                                <option value="26">1975</option>
+                                                <option value="27">1976</option>
+                                                <option value="28">1977</option>
+                                                <option value="29">1978</option>
+                                                <option value="30">1979</option>
+                                                <option value="31">1980</option>
+                                                <option value="32">1981</option>
+                                                <option value="33">1982</option>
+                                                <option value="34">1983</option>
+                                                <option value="35">1984</option>
+                                                <option value="36">1985</option>
+                                                <option value="37">1986</option>
+                                                <option value="38">1987</option>
+                                                <option value="39">1988</option>
+                                                <option value="40">1989</option>
+                                                <option value="41">1990</option>
+                                                <option value="42">1991</option>
+                                                <option value="43">1992</option>
+                                                <option value="44">1993</option>
+                                                <option value="45">1994</option>
+                                                <option value="46">1995</option>
+                                                <option value="47">1996</option>
+                                                <option value="48">1997</option>
+                                                <option value="49">1998</option>
+                                                <option value="50">1999</option>
+                                                <option value="51">2000</option>
+                                                <option value="52">2001</option>
+                                                <option value="53">2002</option>
+                                                <option value="54">2003</option>
+                                                <option value="55">2004</option>
+                                                <option value="56">2005</option>
+                                                <option value="57">2006</option>
+                                                <option value="58">2007</option>
+                                                <option value="59">2008</option>
+                                                <option value="60">2009</option>
+                                                <option value="61">2010</option>
+                                                <option value="62">2011</option>
+                                                <option value="63">2012</option>
+                                                <option value="64">2013</option>
+                                                <option value="65">2014</option>
+                                                <option value="66">2015</option>
+                                                <option value="67">2016</option>
+                                                <option value="68">2017</option>
+                                                <option value="69">2018</option>
+                                                <option value="70">2019</option>
+                                                <option value="71">2020</option>
+                                                <option value="72">2021</option>
+                                                <option value="73">2022</option>
+                                            </select>
+                                        </div>
+                                        <!-- end year list -->
+                                    </div>
+                                </div>
+                                <!-- -----------------------end date of birth container--------------- -->
+                                <!-- ---------------------------check box container------------------- -->
+                                <div class="col-sm-12 mb-4">
+                                    <div class="check_box position-relative text-start">
+                                        <label class="">
+                                            <input type="checkbox" class="checkbox position-absolute" value="1" checked>
+                                            Subscribe to our news letters and stay updated on latest items on PieceX.
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- ---------------------------end check box container------------------- -->
+                                <!-- --------------------------- create button -------------------------- -->
+                                <div class="col-sm-12 text-center">
+                                    <a href="#" class="btn btn-primary" id="create_btn">Create Account</a>
+                                </div>
+                                <!-- ---------------------------end create button -------------------------- -->
+                                <!-- --------------------terms and service container-------------- -->
+                                <p class="mt-4 mb-4 text-end">
+                                    By clicking
+                                    <em>Create Account</em>
+                                    you agree to our
+                                    <a class="text-decoration-none" href="#">terms of service</a>
+                                    including our
+                                    <a class="text-decoration-none" href="#">Privacy Policy</a>
+                                    and
+                                    <a class="text-decoration-none" href="#">Cookie Policy</a>
+                                </p>
+                                <!-- --------------------end terms and service container-------------- -->
+                                <!-- ------------------contact form footer---------------------- -->
+                                <div class="col-md-12 contact_footer">
+                                    <ul class="d-flex justify-content-center">
+                                        <li>
+                                            <a class="text-decoration-none" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-decoration-none" href="#">Terms of Service</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-decoration-none" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ------------------end contact form footer---------------------- -->
+                            </div>
+                        </div>
+                        <!-- --------------------end contact form----------------- -->
+                    </form>
+                    <!-- ------------------end form content---------------- -->
+                </div>
+            </div>
+            <!-- -------------------------end signup container------------------------- -->
+        </div>
+    </div>
+    <!-- ---------------------end piecex signup container------------- -->
+</body>
+
+</html>

@@ -1,0 +1,577 @@
+body{
+    background-color: rebeccapurple;
+}
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 650px;
+
+}
+.productd:hover +div {
+  background-color: #527114;
+}
+
+.email-input {
+    border-radius: 30px;
+}
+
+.inner-seller {
+    margin: 3% !important;
+    background-color: #4250d2ab;
+}
+
+.stay {
+    background-image: url(https://www.piecex.com/assets/img/common/bannerFrame.png);
+    background-size: 100% 100%;
+    /* object-fit: fill; */
+    padding: 2rem 0;
+    position: relative;
+    z-index: 0;
+}
+
+.mobile-symbol {
+    display: none;
+    width: 100px;
+    top: -25px;
+    position: absolute;
+    margin-left: 70%;
+    float: right;
+}
+
+#icon {
+    color: rgba(255, 255, 255, 0);
+}
+
+.bluediv {
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 11px;
+    background-image: linear-gradient(to right, #241471, #414cd9);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    min-width: 100px;
+}
+
+.footer {
+    background-image: linear-gradient(180deg, #404BD5, #6E76DF);
+    color: #fff;
+}
+
+#icons {
+    font-family: FontAwesome;
+}
+
+.img_logo {
+    width: 84px;
+}
+
+.inner #headin {
+    font-size: 25px;
+    font-weight: 700 !important;
+}
+.image-box {
+        border-radius: 50%;
+        width: 8.5vw;
+        line-height: 7.5vw;
+        height: 8.5vw;
+        border: 0.3vw solid #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.white-box {
+        width: 7vw;
+        height: 7vw;
+        line-height: 7vw;
+        margin-top: 8px;
+        margin-left: 7px;
+    }
+.image-l{
+    width:80%;
+     height: 70%;
+}
+.greendiv {
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 20px;
+    background-image: linear-gradient(90deg, rgba(5, 144, 115, 1) 41%, rgba(23, 187, 153, 1) 100%);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    min-width: 210px;
+    text-decoration: none;
+}
+.signUpLink {
+    color: #414cd9;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.icons{
+    right: 55%; 
+    position: absolute;
+}
+.iconss{
+    right: 55%;
+     margin-top: -55px; 
+     position: absolute;
+}
+#ora{
+    width:44%;
+}
+#cros{
+    margin-left: 630px;
+}
+#croses{
+    
+    margin-left: 470px;
+}
+/* tag */
+.tag span{
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:#241471 !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+/* image modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  #ifram{
+    height: 515px;
+     width: 760px;
+     margin-left: -100px;
+     
+ }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+/* image modal */
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    #add {
+        display: none;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    #foot {
+        display: none;
+    }
+
+    #navar {
+        display: none;
+    }
+
+    .mobile-symbol {
+        display: block;
+    }
+
+    .footer {
+        margin-bottom: 51px;
+    }
+
+    .search {
+        width: 106px;
+        margin-right: 13px;
+    }
+
+    .img_logo {
+        margin-left: -13px;
+    }
+
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    #contacts {
+        display: block;
+    }
+    .left-box{
+        margin-bottom: 40px;
+    }
+    
+    .right-box {
+        margin-left: -34px;
+        width: 125%;
+    
+    }
+    
+
+    .forget-password {
+        margin-top: -27px;
+    }
+
+    .inner #headin {
+        font-size: 18px;
+    }
+
+    .image-box {
+        width: 19.4vw;
+        height: 19.4vw;
+    }
+    .white-box {
+        width: 15vw;
+        height: 15vw;
+        line-height: 0vw;
+        margin-top: -2px;
+        margin-right: 3px;
+    }
+    .image-l{
+        margin-top: 2px;
+        width: 80%;
+        height: 80%;
+    }
+    .greendiv{
+        font-size: 13px;
+    }
+    .foote ul,li{
+        padding: 0;
+    }
+    .foote li{
+        padding: 0;
+        margin-right: 12px;
+    }
+    .signUpLink {
+        font-size: 19px;
+    }
+    .icons{
+        right: 21%; 
+        position: absolute;
+    }
+    .iconss{
+        right: 21%;
+         margin-top: -55px; 
+         position: absolute;
+    }
+    .ora{
+        width:40%;
+    }
+    #ifram{
+       height: 315px;
+        width: 360px;
+       margin-left:10px;
+        
+    }
+    .tabname{
+        display: none;
+    }
+    #comm{
+        margin-left: -60px;
+    }
+    #cros{
+        margin-left: 340px;
+    }
+    #croses{
+        margin-left: 350px;
+    }
+    .modal-dialog{
+            
+            margin-top: 100px !important;
+            
+    }
+    
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 600px) {
+    #contacts {
+        display: none;
+    }
+
+    #navar {
+        display: none;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+    #navbarNavDropdown {
+        margin-left: 36px;
+    }
+
+    .img_logo {
+        margin-left: 31px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_page {
+    margin-top: 0px;
+    position: relative;
+    background: url(https://www.piecex.com/assets/img/common/home/login-new-bg.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+
+
+.action-box h1 {
+    color: #272727;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.facebookicon {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.githubicon {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+.googleicon {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+
+.login_logo {
+    display: block;
+    margin: auto;
+    max-height: 75px;
+    width: 250px;
+    margin-bottom: 70px;
+    padding-top: 0px;
+}
+
+
+
+.cards{
+    font-size: small;
+}
+.cards .card{
+    width: 100%;
+}
+.cards .card .image_container a{
+    color: black;
+}
+.cards .card .image_container a:hover,
+.cards .card .card-body p a:hover,
+.cards .card .card-body h6 a:hover
+{
+    color: blue;
+}
+.cards .card .card-body h6
+{
+    height: 40px;
+    overflow: hidden;
+}
+.cards .card .card-body p{
+    height: 35px;
+    overflow: hidden;
+}
+.cards .card .card-body {
+height: 220px;
+}
+.cards .card .card-body p a,
+.cards .card .card-body h6 a
+{
+    font-weight: 600;
+    color: black;
+}
+.like_img{
+    top: 10px;
+    right: 10px;
+}
+#buy_btn{
+    border: none;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+}
+#buy_btn:hover{
+    background: none;
+    background-color: black;
+}
+.card .card-body .card-text{
+    font-size: 12px;
+}
+
+/* -----------------buy code button------------- */
+.buy_code_btn:hover{
+    background-color: black;
+    color: white;
+}
+/* ---------------buy page container--------------- */
+@media screen and (max-width:1280px) {
+    .buy_page{
+      padding-top: 20vh !important;
+    }  
+  }
+@media screen and (max-width:1024px) {
+  .buy_page{
+    padding-top: 33vh !important;
+  }  
+}
+@media screen and (max-width:912px) {
+    .buy_page{
+      padding-top: 10vh !important;
+    }  
+  }
+  @media screen and (max-width:768px) {
+    .buy_page{
+      padding-top: 12vh !important;
+    }  
+  }
+  @media screen and (max-width:540px) {
+    .buy_page{
+      padding-top: 15vh !important;
+    }  
+  }
+  @media screen and (max-width:414px) {
+    .buy_page{
+      padding-top: 12vh !important;
+    }  
+  }
+  @media screen and (max-width:375px) {
+    .buy_page{
+      padding-top: 15vh !important;
+    }  
+  }
+  @media screen and (max-width:280px) {
+    .buy_page{
+      padding-top: 18vh !important;
+    }  
+    .cards .card .image_container .container-fluid div{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+   
+  
+  }
+  /* ---------------end buy page container--------------- */

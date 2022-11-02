@@ -1,0 +1,135 @@
+/* ---------------------banner section------------------ */
+.banner-section a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.banner-section {
+    padding-bottom: 5rem;
+    background-image: url('./image/piecex-hero-bg.png');
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.banner_container {
+    padding: 0 3%;
+}
+
+/* -----------------column logo width-------------------- */
+.col_logo_icon {
+    width: 100%;
+}
+
+.piecex_logo_white {
+    width: 50%;
+    margin-top: -15px;
+}
+
+/* ----------------column content------------------- */
+.column_content {
+    text-align: center;
+    padding-top: 13rem;
+}
+
+.pt_5 {
+    padding-top: 3rem !important;
+}
+
+.pt_4 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem !important;
+}
+
+/* ----------------------search bar css----------------------------- */
+.search_bar {
+    border-radius: 16px;
+    background-color: white;
+    margin: 4rem 0;
+    padding: 5px 10px;
+}
+
+#product_search {
+    border: none;
+    box-shadow: none;
+}
+/* ---------------------------piecex container-------------------------- */
+.piecex_container{
+    width: 60%;
+    height: fit-content;
+    margin: 0 20%;
+}
+.piecex_container a{
+    color: white;
+    text-decoration: none;
+}
+/* ----------------------carousel / slider --------------------- */
+
+.carousel_items{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    
+    /* border: 4px solid black; */
+}
+
+.carousel_item_1{
+    background-image: url('./image/mobile-hero-iot.png');
+    background-repeat: no-repeat;
+    height: 560px;
+
+}
+.carousel_item_2{
+    background-image: url('./image/mobile-hero-piecex.png');
+    background-repeat: no-repeat;
+    height: 560px;
+}
+.carousel_item_3{
+    background-image: url('./image/mobile-hero-oss.png');
+    background-repeat: no-repeat;
+    height: 560px;
+}
+
+/* ------------------------banner and carousel media quary---------------------- */
+@media screen and (max-width: 1030px) {
+    .banner-section{
+    display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .column_content {
+        height: 350px;
+        padding-top: 5rem;
+    }
+}
+/* --------------------------------language container----------------------------------- */
+.language_container .row{
+    justify-content: center;
+}
+.language_container{
+    padding: 2rem;
+    background-color: #d3ceed4a;
+    text-align: center;
+}
+.language_container a{
+    width: max-content;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+/* ----------------------testimonials container----------------------------- */
+#carousel_inner_container{
+    width: 75%;
+    align-items: center;
+    background-size: contain;
+    padding: 4%;
+    margin: 10%;
+    color: white;
+    background-image: linear-gradient(to right,#241471,#414cd9);
+  
+}
+
+.testimonial_slider{
+    background-color: #EDEDED;
+}
